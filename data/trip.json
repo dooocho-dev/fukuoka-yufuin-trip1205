@@ -1,0 +1,459 @@
+{
+  "meta": {
+    "title": "후쿠오카 · 유후인",
+    "subtitle": "가족과 함께하는 큐슈 2박 3일",
+    "startDate": "2026-12-05",
+    "endDate": "2026-12-07",
+    "updatedAt": "2026-11-20",
+    "syncStatus": "sample",
+    "sourceNames": [
+      "GPT_일본여행계획",
+      "일본 여행 계획"
+    ],
+    "notice": "노션 원본을 바탕으로 구성한 초기 데이터입니다. 교통·영업시간은 출발 전 재확인하세요."
+  },
+  "days": [
+    {
+      "date": "2026-12-05",
+      "label": "1일차 · 토요일",
+      "area": "후쿠오카 공항 → 유후인",
+      "summary": "일본 입국 후 유후인 이동, 숙소 체크인과 야키니쿠 저녁",
+      "items": [
+        {
+          "time": "06:16",
+          "title": "강릉역 KTX 출발",
+          "detail": "서울역 08:31 도착",
+          "type": "transport",
+          "status": "예약완료"
+        },
+        {
+          "time": "08:51",
+          "title": "공항철도 탑승",
+          "detail": "서울역 → 인천공항 2터미널, 09:41 도착",
+          "type": "transport",
+          "status": "예약완료"
+        },
+        {
+          "time": "13:10",
+          "title": "인천공항 출발",
+          "detail": "아시아나 OZ134 · 후쿠오카 14:40 도착",
+          "type": "flight"
+        },
+        {
+          "time": "17:08",
+          "title": "유후인행 고속버스",
+          "detail": "후쿠오카 공항 → 유후인 18:59 도착",
+          "type": "transport",
+          "status": "예약완료"
+        },
+        {
+          "time": "19:00",
+          "title": "슈호칸 호텔 체크인",
+          "detail": "도착 후 짐 정리 및 휴식",
+          "type": "stay"
+        },
+        {
+          "time": "20:00",
+          "title": "유후인 와사쿠 야키니쿠",
+          "detail": "가족 저녁 식사 · 어른 8명, 학생 4명",
+          "type": "food",
+          "status": "예약완료",
+          "place": "유후인 와사쿠 야키니쿠"
+        }
+      ]
+    },
+    {
+      "date": "2026-12-06",
+      "label": "2일차 · 일요일",
+      "area": "유후인 → 텐진",
+      "summary": "유후인 산책과 점심 식사 후 텐진으로 이동",
+      "items": [
+        {
+          "time": "아침",
+          "title": "슈호칸 호텔 조식",
+          "detail": "조식 시간은 체크인 시 확인",
+          "type": "food"
+        },
+        {
+          "time": "오전",
+          "title": "긴린코 호수 산책",
+          "detail": "이른 아침 물안개와 유후인 풍경 감상",
+          "type": "visit",
+          "place": "긴린코 호수"
+        },
+        {
+          "time": "점심",
+          "title": "갓포사토",
+          "detail": "일본식 정식·닭요리·초밥 등",
+          "type": "food",
+          "place": "유후인 갓포사토"
+        },
+        {
+          "time": "14:00",
+          "title": "텐진행 고속버스",
+          "detail": "유후인 버스터미널 → 텐진 16:25 도착",
+          "type": "transport",
+          "status": "예약완료"
+        },
+        {
+          "time": "16:25",
+          "title": "텐진 도착·쇼핑",
+          "detail": "후쿠오카 파르코, 프릭스 스토어 등",
+          "type": "shop"
+        },
+        {
+          "time": "오후",
+          "title": "니시테츠 그랜드 호텔 체크인",
+          "detail": "텐진 숙소",
+          "type": "stay"
+        },
+        {
+          "time": "저녁",
+          "title": "캐널시티 하카타",
+          "detail": "쇼핑·분수쇼·츠키지 긴타코",
+          "type": "shop",
+          "place": "캐널시티 하카타"
+        },
+        {
+          "time": "야식",
+          "title": "이치란 라멘",
+          "detail": "일정과 컨디션에 따라 선택",
+          "type": "food",
+          "place": "이치란 라멘"
+        }
+      ]
+    },
+    {
+      "date": "2026-12-07",
+      "label": "3일차 · 월요일",
+      "area": "텐진 → 후쿠오카 공항",
+      "summary": "텐진에서 마지막 식사 후 귀국",
+      "items": [
+        {
+          "time": "오전",
+          "title": "텐진 마지막 산책·아침",
+          "detail": "Park South Sandwich FUKUOKA 등 선택",
+          "type": "food"
+        },
+        {
+          "time": "11:00",
+          "title": "니시테츠 그랜드 호텔 체크아웃",
+          "detail": "짐 정리 후 공항 이동 준비",
+          "type": "stay"
+        },
+        {
+          "time": "점심",
+          "title": "돈카츠 마루시치 후쿠오카점",
+          "detail": "일정 여유가 있으면 식사",
+          "type": "food",
+          "place": "돈카츠 마루시치 후쿠오카점"
+        },
+        {
+          "time": "15:50",
+          "title": "후쿠오카 공항 출발",
+          "detail": "아시아나 OZ133 · 인천공항 17:20 도착",
+          "type": "flight"
+        },
+        {
+          "time": "18:49",
+          "title": "공항철도 탑승",
+          "detail": "인천공항 2터미널 → 서울역 19:40 도착",
+          "type": "transport"
+        },
+        {
+          "time": "22:14",
+          "title": "서울역 KTX 출발",
+          "detail": "강릉 방면 귀가",
+          "type": "transport",
+          "status": "예약완료"
+        }
+      ]
+    }
+  ],
+  "flights": [
+    {
+      "route": "인천 → 후쿠오카",
+      "airline": "아시아나항공",
+      "flight": "OZ134",
+      "departure": "12/05 13:10",
+      "arrival": "12/05 14:40",
+      "note": "인천공항 제2터미널 · A330"
+    },
+    {
+      "route": "후쿠오카 → 인천",
+      "airline": "아시아나항공",
+      "flight": "OZ133",
+      "departure": "12/07 15:50",
+      "arrival": "12/07 17:20",
+      "note": "인천공항 제2터미널 · A330"
+    }
+  ],
+  "stays": [
+    {
+      "name": "슈호칸 호텔",
+      "date": "12월 5일 · 1박",
+      "area": "유후인",
+      "detail": "유후인 첫날 숙박 및 다음날 조식",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%EC%8A%88%ED%98%B8%EC%B9%B8+%EC%9C%A0%ED%9B%84%EC%9D%B8"
+    },
+    {
+      "name": "니시테츠 그랜드 호텔",
+      "date": "12월 6일 · 1박",
+      "area": "텐진",
+      "detail": "텐진 쇼핑 및 도심 이동에 편리한 숙소",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=Nishitetsu+Grand+Hotel+Fukuoka"
+    }
+  ],
+  "transport": [
+    {
+      "name": "공항 → 유후인 고속버스",
+      "time": "12/05 17:08 → 18:59",
+      "status": "예약완료"
+    },
+    {
+      "name": "유후인 → 텐진 고속버스",
+      "time": "12/06 14:00 → 16:25",
+      "status": "예약완료"
+    },
+    {
+      "name": "산큐패스 큐슈북부 2일권",
+      "time": "사용 조건·대상 노선 사전 확인",
+      "status": "참고"
+    }
+  ],
+  "restaurants": [
+    {
+      "id": "wasaku",
+      "name": "유후인 와사쿠 야키니쿠",
+      "area": "유후인",
+      "category": "야키니쿠",
+      "description": "1일차 20:00 가족 저녁 식사 예정",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=Yufuin+Wasaku"
+    },
+    {
+      "id": "kappo-sato",
+      "name": "유후인 갓포사토",
+      "area": "유후인",
+      "category": "일식 정식",
+      "description": "2일차 점심 후보 · 닭 요리 정식, 초밥, 전골 등",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=Yufuin+Kappo+Sato"
+    },
+    {
+      "id": "ichiran",
+      "name": "이치란 라멘",
+      "area": "텐진·하카타",
+      "category": "라멘",
+      "description": "2일차 야식 후보",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=Ichiran+Fukuoka"
+    },
+    {
+      "id": "gindaco",
+      "name": "츠키지 긴타코",
+      "area": "하카타·캐널시티",
+      "category": "타코야키",
+      "description": "캐널시티 지하 1층 분수 공연장 부근",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=Tsukiji+Gindaco+Canal+City"
+    },
+    {
+      "id": "marushichi",
+      "name": "돈카츠 마루시치 후쿠오카점",
+      "area": "텐진·하카타",
+      "category": "돈카츠",
+      "description": "3일차 마지막 식사 후보",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=Tonkatsu+Marushichi+Fukuoka"
+    },
+    {
+      "id": "sugitama",
+      "name": "스기타마 텐진점",
+      "area": "텐진·하카타",
+      "category": "스시",
+      "description": "텐진역 부근 스시 메뉴",
+      "coords": [
+        33.5924112,
+        130.3964023
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%EC%8A%A4%EA%B8%B0%ED%83%80%EB%A7%88+%ED%85%90%EC%A7%84"
+    },
+    {
+      "id": "anzu",
+      "name": "안즈 텐진점",
+      "area": "텐진·하카타",
+      "category": "돈카츠",
+      "description": "이와타야 백화점 신관 7층",
+      "coords": [
+        33.5893593,
+        130.3975129
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=Anzu+Tenjin"
+    },
+    {
+      "id": "parksouth",
+      "name": "Park South Sandwich FUKUOKA",
+      "area": "텐진·하카타",
+      "category": "카페·샌드위치",
+      "description": "니시테츠 그랜드 호텔 인근",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=Park+South+Sandwich+FUKUOKA"
+    }
+  ],
+  "shopping": [
+    {
+      "id": "parco",
+      "name": "후쿠오카 파르코",
+      "area": "텐진",
+      "hours": "10:00~20:30 (노션 기록 기준)",
+      "address": "2 Chome-11-1 Tenjin, Chuo Ward, Fukuoka, Japan",
+      "floors": [],
+      "description": "패션 및 라이프스타일 브랜드",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=Fukuoka+Parco"
+    },
+    {
+      "id": "mina",
+      "name": "미나 텐진",
+      "area": "텐진",
+      "hours": "10:00~20:00 (노션 기록 기준)",
+      "address": "4 Chome-3-8 Tenjin, Chuo Ward, Fukuoka, Japan",
+      "floors": [],
+      "description": "텐진 지하상가와 연결되는 쇼핑몰",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=Mina+Tenjin"
+    },
+    {
+      "id": "one",
+      "name": "원 후쿠오카 빌딩",
+      "area": "텐진",
+      "hours": "10:00~20:00 (노션 기록 기준)",
+      "address": "1 Chome-11-1 Tenjin, Chuo Ward, Fukuoka, Japan",
+      "floors": [],
+      "description": "텐진 중심 쇼핑 빌딩",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=One+Fukuoka+Building"
+    },
+    {
+      "id": "vioro",
+      "name": "VIORO 비오로",
+      "area": "텐진",
+      "hours": "10:00~20:00 (노션 기록 기준)",
+      "address": "2 Chome-10-3 Tenjin, Chuo Ward, Fukuoka, Japan",
+      "floors": [],
+      "description": "패션 중심 쇼핑 빌딩",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=VIORO+Fukuoka"
+    },
+    {
+      "id": "solaria",
+      "name": "솔라리아 플라자",
+      "area": "텐진",
+      "hours": "10:00~20:00 (노션 기록 기준)",
+      "address": "2 Chome-2-43 Tenjin, Chuo Ward, Fukuoka, Japan",
+      "floors": [],
+      "description": "텐진역 인근 쇼핑몰",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=Solaria+Plaza+Fukuoka"
+    },
+    {
+      "id": "iwataya",
+      "name": "이와타야 백화점",
+      "area": "텐진",
+      "hours": "10:00~20:00 (노션 기록 기준)",
+      "address": "2 Chome-5-35 Tenjin, Chuo Ward, Fukuoka, Japan",
+      "floors": [],
+      "description": "텐진의 주요 백화점",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=Iwataya+Fukuoka"
+    },
+    {
+      "id": "donki",
+      "name": "돈키호테 텐진 본점",
+      "area": "텐진",
+      "hours": "24시간 (노션 기록 기준)",
+      "address": "1 Chome-20-17 Imaizumi, Chuo Ward, Fukuoka, Japan",
+      "floors": [],
+      "description": "면세 쇼핑과 생활용품",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=Don+Quijote+Tenjin"
+    },
+    {
+      "id": "canal",
+      "name": "캐널시티 하카타",
+      "area": "하카타·캐널시티",
+      "hours": "매장별 상이",
+      "address": "Hakata Ward, Fukuoka, Japan",
+      "floors": [],
+      "description": "분수쇼·음식점·캐릭터 매장",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=Canal+City+Hakata"
+    }
+  ],
+  "places": [
+    {
+      "id": "kinrin",
+      "name": "긴린코 호수",
+      "area": "유후인",
+      "kind": "관광",
+      "description": "아침 산책과 물안개로 알려진 호수",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=Kinrin+Lake+Yufuin"
+    },
+    {
+      "id": "yunotsubo",
+      "name": "유노츠보 거리",
+      "area": "유후인",
+      "kind": "관광",
+      "description": "상점과 먹거리가 이어지는 유후인 거리",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=Yunotsubo+Kaido"
+    },
+    {
+      "id": "canalplace",
+      "name": "캐널시티 하카타",
+      "area": "하카타·캐널시티",
+      "kind": "쇼핑·관광",
+      "description": "쇼핑과 분수쇼",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=Canal+City+Hakata"
+    }
+  ],
+  "guide": [
+    {
+      "title": "Visit Japan Web",
+      "category": "입국 준비",
+      "description": "일본 입국·세관 사전 등록. 개인 QR코드는 별도 보관",
+      "url": "https://www.vjw.digital.go.jp/main/#/vjwplo001"
+    },
+    {
+      "title": "산큐패스 큐슈북부",
+      "category": "교통",
+      "description": "사용 가능 노선과 유효기간 확인. 철도와 지하철은 대상이 아님"
+    },
+    {
+      "title": "여행 중 지도",
+      "category": "현지 이용",
+      "description": "식당·쇼핑몰 카드의 지도 버튼으로 바로 길찾기"
+    },
+    {
+      "title": "항공 수하물",
+      "category": "출국 준비",
+      "description": "노션 기록: 기내 10kg, 위탁 23kg. 실제 허용량은 항공권 조건으로 재확인"
+    }
+  ],
+  "checklist": [
+    {
+      "id": "passport",
+      "label": "여권 및 유효기간 확인"
+    },
+    {
+      "id": "tickets",
+      "label": "항공권·기차·버스 탑승 정보 별도 보관"
+    },
+    {
+      "id": "vjw",
+      "label": "Visit Japan Web 입력"
+    },
+    {
+      "id": "esim",
+      "label": "eSIM 설치·현지 데이터 준비"
+    },
+    {
+      "id": "cash",
+      "label": "결제 카드 및 현금 준비"
+    },
+    {
+      "id": "packing",
+      "label": "수하물 무게·액체류 규정 재확인"
+    },
+    {
+      "id": "winter",
+      "label": "겨울 겉옷·방한용품 챙기기"
+    }
+  ]
+}

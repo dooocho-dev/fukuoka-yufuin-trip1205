@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 545" fill="none">
+ <defs><linearGradient id="sky" x1="390" y1="0" x2="390" y2="540" gradientUnits="userSpaceOnUse"><stop stop-color="#f9dcc6"/><stop offset="1" stop-color="#f8f3ea"/></linearGradient><linearGradient id="hill" x1="300" y1="220" x2="300" y2="510"><stop stop-color="#63817a"/><stop offset="1" stop-color="#263e47"/></linearGradient><linearGradient id="temple" x1="560" y1="270" x2="560" y2="535"><stop stop-color="#d75c46"/><stop offset="1" stop-color="#a63129"/></linearGradient></defs>
+ <rect width="780" height="545" fill="url(#sky)" opacity=".06"/>
+ <circle cx="536" cy="180" r="122" fill="#e9b285" opacity=".55"/><circle cx="536" cy="180" r="95" fill="#f9ce9e" opacity=".6"/>
+ <path d="M5 408L98 312l48 40 108-150 97 122 69-69 107 116 63-72 144 120v134H5z" fill="#a9b9aa"/>
+ <path d="M-3 450l103-120 45 35 117-139 96 135 67-62 103 115 77-56 185 98v95H-3z" fill="url(#hill)"/>
+ <path d="M-3 483l91-64 88 35 102-90 116 66 57-35 100 52 61-27 168 73v57H-3z" fill="#2c4d50"/>
+ <path d="M193 321l69-95 54 76-29-17-24-26-34 39-36 23Z" fill="#eff0e4" opacity=".92"/>
+ <g opacity=".6" stroke="#f8f3ea" stroke-width="4" stroke-linecap="round"><path d="M102 474c-25-30 30-43 5-74"/><path d="M118 473c-25-30 30-43 5-74"/><path d="M134 473c-25-30 30-43 5-74"/></g>
+ <g fill="#e9c4a4"><rect x="395" y="393" width="59" height="82"/><rect x="450" y="373" width="70" height="103"/><rect x="514" y="409" width="47" height="68"/><rect x="566" y="356" width="64" height="122"/><rect x="636" y="399" width="40" height="79"/><rect x="682" y="385" width="46" height="92"/></g>
+ <g fill="#cf9181"><rect x="400" y="410" width="9" height="10"/><rect x="417" y="410" width="9" height="10"/><rect x="474" y="393" width="10" height="11"/><rect x="490" y="393" width="10" height="11"/><rect x="583" y="375" width="10" height="12"/><rect x="606" y="375" width="10" height="12"/><rect x="694" y="404" width="10" height="11"/></g>
+ <g><path d="M497 443h14v93h-14zm121 0h14v93h-14z" fill="#aa352f"/><path d="M477 427h172l-18 16H494z" fill="url(#temple)"/><path d="M489 415h149v12H489z" fill="#c7473c"/><path d="M535 443h56v10h-56z" fill="#aa352f"/></g>
+ <g fill="#365b51"><path d="M36 523l21-88 25 88z"/><path d="M66 538l22-102 29 102z"/><path d="M159 526l20-92 29 92z"/><path d="M339 533l25-106 28 106z"/></g>
+ <path d="M0 518C116 472 225 516 331 497S545 488 780 515V545H0z" fill="#f8f3ea"/>
+ <g fill="#d2412c" opacity=".88"><path d="M230 116l6-11 6 11-6 12z"/><path d="M276 89l5-10 5 10-5 11z"/><path d="M306 135l4-8 5 8-5 9z"/></g>
+ <text x="615" y="100" fill="#bd6652" font-family="serif" font-size="16" letter-spacing="8" transform="rotate(90 615 100)">KYUSHU JAPAN</text>
+</svg>
