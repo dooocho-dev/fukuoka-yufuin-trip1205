@@ -302,9 +302,148 @@
       "area": "텐진",
       "hours": "10:00~20:30 (노션 기록 기준)",
       "address": "2 Chome-11-1 Tenjin, Chuo Ward, Fukuoka, Japan",
-      "floors": [],
+      "floors": [
+        {
+          "level": "본관 B1F",
+          "stores": [
+            "TACOMiA",
+            "糸島食堂",
+            "YOSHIMI",
+            "Disney Store"
+          ]
+        },
+        {
+          "level": "본관 1F",
+          "stores": [
+            "여성 패션·화장품·잡화 (개별 상호 층 미확인)"
+          ]
+        },
+        {
+          "level": "본관 2F",
+          "stores": [
+            "남녀 패션 (개별 상호 층 미확인)"
+          ]
+        },
+        {
+          "level": "본관 3F",
+          "stores": [
+            "MARVEL STORE by SMALL PLANET",
+            "남녀 패션"
+          ]
+        },
+        {
+          "level": "본관 4F",
+          "stores": [
+            "mofusand",
+            "여성 의류·화장품·속옷"
+          ]
+        },
+        {
+          "level": "본관 5F",
+          "stores": [
+            "Sylvanian Families 森のお家Premium",
+            "Bokura Link",
+            "PARCO FACTORY",
+            "fantasy village (11/21 개점 예정)"
+          ]
+        },
+        {
+          "level": "본관 6F",
+          "stores": [
+            "Village Vanguard",
+            "Tower Records",
+            "Sweets Paradise",
+            "패션·스포츠·잡화"
+          ]
+        },
+        {
+          "level": "본관 7F",
+          "stores": [
+            "Gashapon Bandai",
+            "MINT",
+            "Crayon Shin-chan Action Department",
+            "ONE PIECE 麦わらストア",
+            "POP MART"
+          ]
+        },
+        {
+          "level": "본관 8F",
+          "stores": [
+            "COSPA Traveling Depot",
+            "Animate",
+            "Tenjin Chara Park",
+            "악기"
+          ]
+        },
+        {
+          "level": "신관 B2F",
+          "stores": [
+            "Pietro",
+            "cafe TANNAL",
+            "Tokyo Sundubu"
+          ]
+        },
+        {
+          "level": "신관 B1F",
+          "stores": [
+            "Cocokara Fine",
+            "카페"
+          ]
+        },
+        {
+          "level": "신관 1F",
+          "stores": [
+            "BEAMS",
+            "Le Dome EDIFICE et IENA"
+          ]
+        },
+        {
+          "level": "신관 2F",
+          "stores": [
+            "ADAM ET ROPÉ",
+            "Santa Maria Novella",
+            "Jouete",
+            "HAGANE TAILOR",
+            "BEAMS",
+            "BAYBROOK"
+          ]
+        },
+        {
+          "level": "신관 3F",
+          "stores": [
+            "unshop",
+            "HARE",
+            "baybrook selection",
+            "LAD MUSICIAN"
+          ]
+        },
+        {
+          "level": "신관 4F",
+          "stores": [
+            "nest Robe / CONFECT",
+            "FREAK'S STORE",
+            "TOP TOY (11/14 개점 표기)"
+          ]
+        },
+        {
+          "level": "신관 5F",
+          "stores": [
+            "공유오피스·카페"
+          ]
+        },
+        {
+          "level": "신관 6F",
+          "stores": [
+            "Terrace AVEDA",
+            "핫요가·카페"
+          ]
+        }
+      ],
       "description": "패션 및 라이프스타일 브랜드",
-      "mapUrl": "https://www.google.com/maps/search/?api=1&query=Fukuoka+Parco"
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=Fukuoka+Parco",
+      "officialFloorUrl": "https://fukuoka.parco.jp/floor/",
+      "floorVerifiedAt": "2026-11-14",
+      "floorNote": "노션 자료에 기록된 매장 목록입니다. 일부 층은 업종만 확인되므로 방문 전 공식 층별 안내를 확인하세요."
     },
     {
       "id": "mina",
@@ -312,9 +451,100 @@
       "area": "텐진",
       "hours": "10:00~20:00 (노션 기록 기준)",
       "address": "4 Chome-3-8 Tenjin, Chuo Ward, Fukuoka, Japan",
-      "floors": [],
+      "floors": [
+        {
+          "level": "B1F",
+          "stores": [
+            "HiRaKu mina tenjin",
+            "È PRONTO",
+            "KFC",
+            "洗光舎",
+            "吉野家・はなまるうどん",
+            "Matsumoto Kiyoshi",
+            "McDonald's",
+            "Dream Center",
+            "てっぱんのスパゲッティ",
+            "Starbucks",
+            "TeaWay",
+            "3COINS+plus"
+          ]
+        },
+        {
+          "level": "1F",
+          "stores": [
+            "UNIQLO (여성)",
+            "Theory",
+            "PLST",
+            "ONCA COFFEE",
+            "JINS"
+          ]
+        },
+        {
+          "level": "2F",
+          "stores": [
+            "UNIQLO (남성·키즈·베이비)",
+            "カメラのキタムラ"
+          ]
+        },
+        {
+          "level": "3F",
+          "stores": [
+            "GU"
+          ]
+        },
+        {
+          "level": "4F",
+          "stores": [
+            "LOFT"
+          ]
+        },
+        {
+          "level": "5F",
+          "stores": [
+            "ラルーフ",
+            "保険ほっとライン",
+            "Honeys",
+            "SHOO・LA・RUE",
+            "Craft Heart Tokai",
+            "からだ屋",
+            "AOKI",
+            "ABC-MART"
+          ]
+        },
+        {
+          "level": "6F",
+          "stores": [
+            "Nitori EXPRESS",
+            "Seria"
+          ]
+        },
+        {
+          "level": "7F",
+          "stores": [
+            "BOOKOFF SUPER BAZAAR",
+            "GiGO"
+          ]
+        },
+        {
+          "level": "8F",
+          "stores": [
+            "Zero-Ten Park",
+            "풋살코트 카페",
+            "Kurosawa 악기"
+          ]
+        },
+        {
+          "level": "RF",
+          "stores": [
+            "풋살코트·반려견 놀이터"
+          ]
+        }
+      ],
       "description": "텐진 지하상가와 연결되는 쇼핑몰",
-      "mapUrl": "https://www.google.com/maps/search/?api=1&query=Mina+Tenjin"
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=Mina+Tenjin",
+      "officialFloorUrl": "https://www.mina-tenjin.com/shop/floor.php",
+      "floorVerifiedAt": "2026-11-14",
+      "floorNote": "노션 자료에 기록된 매장 목록입니다. 일부 층은 업종만 확인되므로 방문 전 공식 층별 안내를 확인하세요."
     },
     {
       "id": "one",
@@ -322,9 +552,200 @@
       "area": "텐진",
       "hours": "10:00~20:00 (노션 기록 기준)",
       "address": "1 Chome-11-1 Tenjin, Chuo Ward, Fukuoka, Japan",
-      "floors": [],
+      "floors": [
+        {
+          "level": "B2F",
+          "stores": [
+            "Aoyama Flower Market",
+            "b!olala",
+            "Krispy Kreme",
+            "茶寮伊藤園",
+            "Yoajung",
+            "firando",
+            "DOLCE＆",
+            "codomodo",
+            "EASTtable",
+            "買取大吉",
+            "洗光舎",
+            "リフォーム三光サービス",
+            "Welcia",
+            "Umenohana KITCHEN",
+            "八仙閣",
+            "Pizza ar taio",
+            "DE・NI＆TheSpoon",
+            "Campbell Early",
+            "恵比寿堂",
+            "Prunelle",
+            "りんごとバター。",
+            "高玉",
+            "TOKADO COFFEE STAND",
+            "如水庵",
+            "萬田うどん",
+            "＆AttA",
+            "Tully's",
+            "Yamato",
+            "Mizuho ATM·복권",
+            "AKOMEYA TOKYO",
+            "アイシティ"
+          ]
+        },
+        {
+          "level": "B1F",
+          "stores": [
+            "房家",
+            "もつ鍋おおやま",
+            "すし酒場さしす",
+            "月島もんじゃたまとや",
+            "大衆酒場多幸橋本店",
+            "博多とりかわ大臣",
+            "博多一双 (휴업 여부 확인)",
+            "オ肉ヤ YOSHIMI",
+            "ポキイト",
+            "YEBISU BAR",
+            "LE BISTRO AKi",
+            "WithGreen",
+            "立ち呑みたたんばぁ",
+            "卵と私",
+            "TAVERY WALKER"
+          ]
+        },
+        {
+          "level": "1F",
+          "stores": [
+            "CHANEL",
+            "Valextra",
+            "TATRAS",
+            "NIWAKA",
+            "スピカ・アルビオン",
+            "THE CAFE by ONE FUKUOKA HOTEL",
+            "Pierre Marcolini",
+            "Venchi",
+            "Hirotaka",
+            "MUCHA",
+            "ĖDIT(h)",
+            "THE CONTINENTAL ROYAL & Goh",
+            "Maison Def (기간 한정)"
+          ]
+        },
+        {
+          "level": "2F",
+          "stores": [
+            "athletia",
+            "NOSE SHOP",
+            "A BATHING APE",
+            "Patou",
+            "MoMA Design Store",
+            "NIKE",
+            "NEUTRALWORKS.",
+            "MYKITA",
+            "kolor",
+            "HYDROGEN",
+            "Salomon",
+            "and wander",
+            "MAISON KITSUNÉ",
+            "CAFÉ KITSUNÉ",
+            "Jouete L/",
+            "TATRAS",
+            "Face Records",
+            "N.HOOLYWOOD",
+            "TRENT",
+            "LINC ORIGINAL MAKERS"
+          ]
+        },
+        {
+          "level": "3F",
+          "stores": [
+            "OHGA 1st",
+            "Editorial",
+            "agnès b.",
+            "AIGLE",
+            "MACKINTOSH PHILOSOPHY",
+            "theory luxe",
+            "和カフェ Tsumugi",
+            "Maker’s Watch Knot",
+            "Bshop",
+            "Öffen",
+            "master-piece",
+            "La Confiance by Paris Miki",
+            "Angelica Michelle",
+            "evam eva",
+            "PLAIN PEOPLE",
+            "Tabio",
+            "Motherhouse",
+            "pas de calais",
+            "yuko tanaka by Cassis de Rouge",
+            "MHL.",
+            "SPIRAL GARDEN",
+            "HIROKO HAYASHI",
+            "SOUVENIRS",
+            "きものやまと",
+            "中川政七商店",
+            "Viridian"
+          ]
+        },
+        {
+          "level": "4F",
+          "stores": [
+            "Foxfire",
+            "Snow Peak",
+            "Cotopaxi",
+            "Starbucks",
+            "蔦屋書店",
+            "小林時計店",
+            "RIEDEL",
+            "Victorinox",
+            "Raffine",
+            "TIENA",
+            "999.9",
+            "Garmin",
+            "LOVOT",
+            "伊東屋",
+            "SOMÈS",
+            "DESCENTE",
+            "神乃珈琲",
+            "TENTIAL",
+            "KEEN GARAGE",
+            "MAMMUT",
+            "PATRICK LABO",
+            "Columbia"
+          ]
+        },
+        {
+          "level": "5F",
+          "stores": [
+            "天神福食堂"
+          ]
+        },
+        {
+          "level": "6F",
+          "stores": [
+            "SKY LOBBY·회의장·WORKERS LOUNGE"
+          ]
+        },
+        {
+          "level": "7F",
+          "stores": [
+            "CIC Fukuoka"
+          ]
+        },
+        {
+          "level": "8–17F",
+          "stores": [
+            "오피스"
+          ]
+        },
+        {
+          "level": "18–19F",
+          "stores": [
+            "ONE FUKUOKA HOTEL"
+          ]
+        }
+      ],
       "description": "텐진 중심 쇼핑 빌딩",
-      "mapUrl": "https://www.google.com/maps/search/?api=1&query=One+Fukuoka+Building"
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=One+Fukuoka+Building",
+      "officialFloorUrl": "https://onefukuoka-building.jp/shop/floormap",
+      "floorVerifiedAt": "2026-11-14",
+      "floorNote": "노션 자료에 기록된 매장 목록입니다. 일부 층은 업종만 확인되므로 방문 전 공식 층별 안내를 확인하세요."
     },
     {
       "id": "vioro",
@@ -332,9 +753,90 @@
       "area": "텐진",
       "hours": "10:00~20:00 (노션 기록 기준)",
       "address": "2 Chome-10-3 Tenjin, Chuo Ward, Fukuoka, Japan",
-      "floors": [],
+      "floors": [
+        {
+          "level": "B2F",
+          "stores": [
+            "NOBLE",
+            "DENHAM",
+            "April",
+            "DENIM DUNGAREE",
+            "Ribbon hakka kids",
+            "arena",
+            "Octà Hotel",
+            "muta MARINE FUKUOKA"
+          ]
+        },
+        {
+          "level": "B1F",
+          "stores": [
+            "café & books bibliothèque",
+            "UNITED ARROWS MEN",
+            "BEAMS GOLF",
+            "BRITISH MADE",
+            "KANEKO OPTICAL",
+            "Marimekko"
+          ]
+        },
+        {
+          "level": "1F",
+          "stores": [
+            "MARKS&WEB",
+            "BRIEFING",
+            "Hervé Chapelier",
+            "IL BISONTE",
+            "UNITED ARROWS WOMEN",
+            "BIZOUX",
+            "STAR JEWELRY"
+          ]
+        },
+        {
+          "level": "2F",
+          "stores": [
+            "최신 공식 목록에서 매장명 확인 불가"
+          ]
+        },
+        {
+          "level": "3F",
+          "stores": [
+            "최신 공식 목록에서 매장명 확인 불가"
+          ]
+        },
+        {
+          "level": "4F",
+          "stores": [
+            "ROYAL FLASH",
+            "Octà Hotel Café"
+          ]
+        },
+        {
+          "level": "5F",
+          "stores": [
+            "Heaka AVEDA"
+          ]
+        },
+        {
+          "level": "6F",
+          "stores": [
+            "Dolly Lash",
+            "カラダファクトリー",
+            "Badan Baru"
+          ]
+        },
+        {
+          "level": "7F",
+          "stores": [
+            "CINNABON・SEATTLE’S BEST COFFEE",
+            "hus",
+            "Starbucks"
+          ]
+        }
+      ],
       "description": "패션 중심 쇼핑 빌딩",
-      "mapUrl": "https://www.google.com/maps/search/?api=1&query=VIORO+Fukuoka"
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=VIORO+Fukuoka",
+      "officialFloorUrl": "https://vioro.jp/shop/",
+      "floorVerifiedAt": "2026-11-14",
+      "floorNote": "노션 자료에 기록된 매장 목록입니다. 일부 층은 업종만 확인되므로 방문 전 공식 층별 안내를 확인하세요."
     },
     {
       "id": "solaria",
@@ -342,9 +844,163 @@
       "area": "텐진",
       "hours": "10:00~20:00 (노션 기록 기준)",
       "address": "2 Chome-2-43 Tenjin, Chuo Ward, Fukuoka, Japan",
-      "floors": [],
+      "floors": [
+        {
+          "level": "B2F",
+          "stores": [
+            "THE CITY BAKERY",
+            "Fruit Factory Mooon",
+            "DEAN & DELUCA",
+            "Starbucks Tea & Café"
+          ]
+        },
+        {
+          "level": "B1F",
+          "stores": [
+            "@aroma",
+            "福岡天賞堂",
+            "OVERRIDE",
+            "P2",
+            "Doutor",
+            "MUJI"
+          ]
+        },
+        {
+          "level": "1F",
+          "stores": [
+            "Fred",
+            "Whim Gazette",
+            "GALLARDAGALANTE",
+            "TOMORROWLAND",
+            "gelato pique cafe",
+            "Van Cleef & Arpels",
+            "Tiffany"
+          ]
+        },
+        {
+          "level": "2F",
+          "stores": [
+            "CONVERSE TOKYO",
+            "URBAN RESEARCH ROSSO",
+            "ete",
+            "Max Mara Studio",
+            "ESTNATION",
+            "Cafe Otto Piu",
+            "Steven Alan",
+            "allureville",
+            "BEAUTY&YOUTH UNITED ARROWS"
+          ]
+        },
+        {
+          "level": "3F",
+          "stores": [
+            "AND COUTURE",
+            "SNIDEL HOME",
+            "LILY BROWN",
+            "HARE LADIES",
+            "ANEMONE",
+            "RNA MEDIA",
+            "AIMER",
+            "Ronnie Scotts",
+            "1er Arrondissement",
+            "Cassis de Rouge",
+            "ボタンヤラウンジ Albion",
+            "URBAN RESEARCH DOORS",
+            "珈琲舎のだ",
+            "Ungrid",
+            "DIANA",
+            "LAGUNAMOON",
+            "MERCURYDUO",
+            "Darich",
+            "Risa Magli",
+            "COCO DEAL"
+          ]
+        },
+        {
+          "level": "4F",
+          "stores": [
+            "JEANASIS",
+            "A part by",
+            "mystic",
+            "Chico",
+            "MILKFED.",
+            "X-girl",
+            "KBF",
+            "RANDA",
+            "Candy Stripper",
+            "LAGUA GEM",
+            "SLY",
+            "PAGEBOY",
+            "EMODA",
+            "atmos pink",
+            "TINA:JOJUN",
+            "San-ai Resort northerly",
+            "nana’s green tea",
+            "LesSignes",
+            "MOUSSY",
+            "dazzlin"
+          ]
+        },
+        {
+          "level": "5F",
+          "stores": [
+            "LOWRYS FARM",
+            "archives",
+            "WHO’S WHO gallery",
+            "ALAND",
+            "RETRO GIRL",
+            "AS KNOW AS PINKY",
+            "OLIVE des OLIVE",
+            "sOnse",
+            "INGNI",
+            "ABC-MART/Charlotte",
+            "SpRay/Libby&Rose",
+            "axes femme POETIQUE",
+            "LOCK YOUR HEARTS",
+            "evelyn",
+            "fomenta!",
+            "Zoff",
+            "Lycka",
+            "cepo!",
+            "HTH",
+            "Heather"
+          ]
+        },
+        {
+          "level": "6F",
+          "stores": [
+            "Hachihachi",
+            "博多おだいどこまま魚",
+            "焼とりの八兵衛",
+            "台湾小籠包",
+            "ロクマルニ Café & Diner",
+            "洋麺屋ピエトロ",
+            "かしわ屋源次郎",
+            "星乃珈琲店",
+            "美酒美食W",
+            "Felice Basil BK Cafe",
+            "호텔 프런트"
+          ]
+        },
+        {
+          "level": "7F",
+          "stores": [
+            "KUA'AINA",
+            "8TH SEA OYSTER BAR",
+            "洋麺屋五右衛門",
+            "但馬屋",
+            "韓国料理ビビム",
+            "とんかつ光",
+            "麻辣湯檳榔之夜",
+            "TOHO CINEMAS"
+          ]
+        }
+      ],
       "description": "텐진역 인근 쇼핑몰",
-      "mapUrl": "https://www.google.com/maps/search/?api=1&query=Solaria+Plaza+Fukuoka"
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=Solaria+Plaza+Fukuoka",
+      "officialFloorUrl": "https://solariaplaza.com/floor/",
+      "floorVerifiedAt": "2026-11-14",
+      "floorNote": "노션 자료에 기록된 매장 목록입니다. 일부 층은 업종만 확인되므로 방문 전 공식 층별 안내를 확인하세요."
     },
     {
       "id": "iwataya",
@@ -352,9 +1008,142 @@
       "area": "텐진",
       "hours": "10:00~20:00 (노션 기록 기준)",
       "address": "2 Chome-5-35 Tenjin, Chuo Ward, Fukuoka, Japan",
-      "floors": [],
+      "floors": [
+        {
+          "level": "본관 B2F",
+          "stores": [
+            "Jean-Paul Hévin",
+            "TeaWay",
+            "Clavis",
+            "디저트·반찬·주류"
+          ]
+        },
+        {
+          "level": "본관 B1F",
+          "stores": [
+            "TOKIO",
+            "Fadie Annex",
+            "식료품·베이커리"
+          ]
+        },
+        {
+          "level": "본관 1F",
+          "stores": [
+            "화장품·해외 부티크",
+            "KIRAMEKI BOARD"
+          ]
+        },
+        {
+          "level": "본관 2F",
+          "stores": [
+            "해외 부티크·가방·아트"
+          ]
+        },
+        {
+          "level": "본관 3F",
+          "stores": [
+            "Tricolore Tiare",
+            "여성·남성 의류·속옷·액세서리"
+          ]
+        },
+        {
+          "level": "본관 4F",
+          "stores": [
+            "여성 의류·정장·안경·수선·보청기",
+            "라운지 B"
+          ]
+        },
+        {
+          "level": "본관 5F",
+          "stores": [
+            "丸福珈琲店 The Parlor",
+            "남성 의류·구두"
+          ]
+        },
+        {
+          "level": "본관 6F",
+          "stores": [
+            "Mikihouse Kids Pal",
+            "Swing Garden",
+            "아동·유아·스포츠·골프·여행용품"
+          ]
+        },
+        {
+          "level": "본관 7F",
+          "stores": [
+            "BUNKITSU (서점카페)",
+            "학 IWATAYA",
+            "행사장"
+          ]
+        },
+        {
+          "level": "신관 B2F",
+          "stores": [
+            "라이프스타일 숍"
+          ]
+        },
+        {
+          "level": "신관 B1F",
+          "stores": [
+            "여성 구두·럭셔리 부티크"
+          ]
+        },
+        {
+          "level": "신관 1F",
+          "stores": [
+            "국제 부티크·주얼리·향수"
+          ]
+        },
+        {
+          "level": "신관 2F",
+          "stores": [
+            "남녀 럭셔리 부티크"
+          ]
+        },
+        {
+          "level": "신관 3F",
+          "stores": [
+            "개별 매장명 미확인"
+          ]
+        },
+        {
+          "level": "신관 4F",
+          "stores": [
+            "여성 럭셔리 부티크·주얼리·시계",
+            "라운지 R"
+          ]
+        },
+        {
+          "level": "신관 5F",
+          "stores": [
+            "리빙·기모노·악기·음악교실"
+          ]
+        },
+        {
+          "level": "신관 6F",
+          "stores": [
+            "리빙·공예·상품권"
+          ]
+        },
+        {
+          "level": "신관 7F",
+          "stores": [
+            "Eat Paradise",
+            "미용·면세 서비스"
+          ]
+        },
+        {
+          "level": "신관 8F",
+          "stores": [
+            "미용실·뷰티"
+          ]
+        }
+      ],
       "description": "텐진의 주요 백화점",
-      "mapUrl": "https://www.google.com/maps/search/?api=1&query=Iwataya+Fukuoka"
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=Iwataya+Fukuoka",
+      "officialFloorUrl": "https://www.iwataya-mitsukoshi.mistore.jp/iwataya/shops.html",
+      "floorVerifiedAt": "2026-11-14",
+      "floorNote": "노션 자료에 기록된 매장 목록입니다. 일부 층은 업종만 확인되므로 방문 전 공식 층별 안내를 확인하세요."
     },
     {
       "id": "donki",
@@ -375,6 +1164,626 @@
       "floors": [],
       "description": "분수쇼·음식점·캐릭터 매장",
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=Canal+City+Hakata"
+    },
+    {
+      "id": "bic2",
+      "name": "빅카메라 텐진 2호점",
+      "area": "텐진",
+      "hours": "공식 안내 확인",
+      "address": "Fukuoka, Japan",
+      "description": "노션 층별 매장 정보",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%EB%B9%85%EC%B9%B4%EB%A9%94%EB%9D%BC%20%ED%85%90%EC%A7%84%202%ED%98%B8%EC%A0%90%20Fukuoka",
+      "floors": [
+        {
+          "level": "1F",
+          "stores": [
+            "스마트폰·Mac·iPad·오디오·배터리·SIM 등"
+          ]
+        },
+        {
+          "level": "2F",
+          "stores": [
+            "TV·영상·음향·여행용품·주류"
+          ]
+        },
+        {
+          "level": "3F",
+          "stores": [
+            "카메라·미용가전·의약품·화장품"
+          ]
+        },
+        {
+          "level": "4F",
+          "stores": [
+            "밥솥·전자레인지·청소기·주방 및 생활가전"
+          ]
+        },
+        {
+          "level": "5F",
+          "stores": [
+            "대형 가전·에어컨·조명"
+          ]
+        },
+        {
+          "level": "6F",
+          "stores": [
+            "완구·게임·시계·프라모델·카드·문구"
+          ]
+        },
+        {
+          "level": "7F",
+          "stores": [
+            "캡슐토이·카드 게임기"
+          ]
+        }
+      ],
+      "officialFloorUrl": "https://www.biccamera.com/bc/i/shop/shoplist/shop018.jsp",
+      "floorVerifiedAt": "2026-11-14",
+      "floorNote": "노션 자료에 기록된 매장 목록입니다. 일부 층은 업종만 확인되므로 방문 전 공식 층별 안내를 확인하세요."
+    },
+    {
+      "id": "mitsukoshi",
+      "name": "미츠코시 백화점 후쿠오카점",
+      "area": "텐진",
+      "hours": "공식 안내 확인",
+      "address": "Fukuoka, Japan",
+      "description": "노션 층별 매장 정보",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%EB%AF%B8%EC%B8%A0%EC%BD%94%EC%8B%9C%20%EB%B0%B1%ED%99%94%EC%A0%90%20%ED%9B%84%EC%BF%A0%EC%98%A4%EC%B9%B4%EC%A0%90%20Fukuoka",
+      "floors": [
+        {
+          "level": "B2F",
+          "stores": [
+            "식품·과자·반찬 (개별 매장명 미확인)"
+          ]
+        },
+        {
+          "level": "B1F (LACHIC)",
+          "stores": [
+            "Dental Office Lily",
+            "タオル美術館",
+            "FABRIC’S",
+            "p.m.chord",
+            "eccellente",
+            "メガネサロン",
+            "Madu",
+            "TIMELESS",
+            "O.B.M",
+            "日本橋木屋 ツヴィリング",
+            "my makura",
+            "quatre saisons",
+            "Nishikawa Nemrium",
+            "HONEY COFFEE",
+            "FABLISS IKETEI",
+            "Crescent",
+            "PriveMaison",
+            "ELLIFE",
+            "和銀",
+            "wa lavie & le lien",
+            "fitness newme",
+            "プラワン",
+            "IZONE NEW YORK",
+            "MISTER MINIT",
+            "Picone Accessori"
+          ]
+        },
+        {
+          "level": "1F",
+          "stores": [
+            "여성 잡화·화장품·시계"
+          ]
+        },
+        {
+          "level": "2F",
+          "stores": [
+            "니시테츠 후쿠오카(텐진)역"
+          ]
+        },
+        {
+          "level": "3F",
+          "stores": [
+            "GAP",
+            "Lacoste",
+            "고속버스터미널"
+          ]
+        },
+        {
+          "level": "4F",
+          "stores": [
+            "Afternoon Tea TEAROOM",
+            "여성 의류·아트 갤러리"
+          ]
+        },
+        {
+          "level": "5F",
+          "stores": [
+            "KIHACHI CAFE",
+            "여성 의류·정장·신발·가방·미용"
+          ]
+        },
+        {
+          "level": "6F",
+          "stores": [
+            "茶房古蓮",
+            "여성 편집숍·주얼리·가구·침구·MI카드"
+          ]
+        },
+        {
+          "level": "7–8F",
+          "stores": [
+            "공식 안내상 리뉴얼 관련 휴업 (방문 전 확인)"
+          ]
+        },
+        {
+          "level": "9F",
+          "stores": [
+            "갤러리·행사장",
+            "LACHIC DAISO"
+          ]
+        }
+      ],
+      "officialFloorUrl": "https://www.iwataya-mitsukoshi.mistore.jp/mitsukoshi/shops.html",
+      "floorVerifiedAt": "2026-11-14",
+      "floorNote": "노션 자료에 기록된 매장 목록입니다. 일부 층은 업종만 확인되므로 방문 전 공식 층별 안내를 확인하세요."
+    },
+    {
+      "id": "daikoku",
+      "name": "다이코쿠드럭 텐진미나미점",
+      "area": "텐진",
+      "hours": "공식 안내 확인",
+      "address": "Fukuoka, Japan",
+      "description": "노션 층별 매장 정보",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%EB%8B%A4%EC%9D%B4%EC%BD%94%EC%BF%A0%EB%93%9C%EB%9F%AD%20%ED%85%90%EC%A7%84%EB%AF%B8%EB%82%98%EB%AF%B8%EC%A0%90%20(%EB%8F%88%ED%82%A4%ED%98%B8%ED%85%8C%20%EA%B0%99%EC%9D%80%EA%B3%B3)%20Fukuoka",
+      "floors": [
+        {
+          "level": "1F",
+          "stores": [
+            "매장 운영 층 (기존 주소 기준)",
+            "품목별 배치 미확인"
+          ]
+        },
+        {
+          "level": "2F",
+          "stores": [
+            "매장 운영 층 (기존 주소 기준)",
+            "품목별 배치 미확인"
+          ]
+        }
+      ],
+      "officialFloorUrl": "",
+      "floorVerifiedAt": "2026-11-14",
+      "floorNote": "노션 자료에 기록된 매장 목록입니다. 일부 층은 업종만 확인되므로 방문 전 공식 층별 안내를 확인하세요."
+    },
+    {
+      "id": "daimaru",
+      "name": "다이마루 백화점 후쿠오카 텐진점",
+      "area": "텐진",
+      "hours": "공식 안내 확인",
+      "address": "Fukuoka, Japan",
+      "description": "노션 층별 매장 정보",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%EB%8B%A4%EC%9D%B4%EB%A7%88%EB%A3%A8%20%EB%B0%B1%ED%99%94%EC%A0%90%20Fukuoka",
+      "floors": [
+        {
+          "level": "본관 B2F",
+          "stores": [
+            "麻布かりんと",
+            "麻布十番あげもち屋",
+            "小倉山荘",
+            "治一郎",
+            "如水庵",
+            "鈴懸",
+            "文明堂",
+            "福砂屋",
+            "福寿園",
+            "フーシェ",
+            "フェスティバロ",
+            "三日月屋",
+            "明月堂",
+            "メリー",
+            "モロゾフ",
+            "モンロワール",
+            "鹿鳴館",
+            "山本海苔店",
+            "ユーハイム",
+            "ヨックモック",
+            "北島",
+            "京都祗園あのん",
+            "満果惣",
+            "マヌカンピス",
+            "蜜彩菓",
+            "UCC",
+            "fruit planet"
+          ]
+        },
+        {
+          "level": "본관 B1F",
+          "stores": [
+            "UGG",
+            "ASICS",
+            "あしながおじさん",
+            "ASH",
+            "AIRLIST",
+            "ECCO",
+            "ABC-MART GRAND STAGE",
+            "銀座かねまつ",
+            "銀座ヨシノヤ",
+            "Clarks",
+            "JILLSTUART",
+            "STACCATO",
+            "strober",
+            "New Balance",
+            "Feiler",
+            "Foot Balance",
+            "Foot Pride",
+            "Bridget Birkin",
+            "MODE ET JACOMO",
+            "MANA",
+            "MISTER MINIT",
+            "RIZ raffinee",
+            "yuco imanishi",
+            "면세 카운터"
+          ]
+        },
+        {
+          "level": "본관 1F",
+          "stores": [
+            "agete",
+            "ete",
+            "Gucci (액세서리)",
+            "Chaumet",
+            "Swarovski",
+            "festaria bijou SOPHIA",
+            "Mikimoto",
+            "Messika",
+            "Rolex",
+            "VENDOME AOYAMA",
+            "VENDOME BOUTIQUE",
+            "4℃"
+          ]
+        },
+        {
+          "level": "본관 2F",
+          "stores": [
+            "Junko Shimada",
+            "Joconda Collection",
+            "Georges Rech",
+            "Margaret Howell idea",
+            "FONTAINE",
+            "Maison de Cinq",
+            "Ungaro",
+            "Epic Style",
+            "EVEX",
+            "OSAM",
+            "Casa Sensounico",
+            "Kitamura",
+            "CARA O CRUZ",
+            "TRANS WORK R/L",
+            "TOPYS",
+            "YUKI TORII",
+            "YACCO MARICARD",
+            "LAPINE",
+            "Liliane Burty"
+          ]
+        },
+        {
+          "level": "본관 3F",
+          "stores": [
+            "blancvert",
+            "Plantation",
+            "Mademoiselle NON NON",
+            "mi deux",
+            "Wacoal",
+            "Wacoal maternity",
+            "M'S GRACY",
+            "KID BLUE",
+            "Triumph",
+            "TSUMORI CHISATO",
+            "NEWYORKER",
+            "NAIL BAR",
+            "Reflect"
+          ]
+        },
+        {
+          "level": "본관 4F",
+          "stores": [
+            "Scotch Grain",
+            "FERRAGAMO (남성)",
+            "whoop-de-doo",
+            "mila schön",
+            "S.T.Dupont",
+            "Emporio Armani (남성)",
+            "ACE travel",
+            "J.F.CUTTER",
+            "Transition"
+          ]
+        },
+        {
+          "level": "본관 5F",
+          "stores": [
+            "adabat",
+            "Joseph Abboud",
+            "Black Label Crestbridge",
+            "Baker Street",
+            "Munsingwear",
+            "MEN'S BIGI",
+            "VAN JAC",
+            "VUMPS",
+            "H・L",
+            "Tommy Hilfiger"
+          ]
+        },
+        {
+          "level": "본관 6F",
+          "stores": [
+            "UCHINO",
+            "Silky White",
+            "生活の木",
+            "MEGRUS",
+            "Royal Copenhagen",
+            "LOFTY",
+            "昭和西川",
+            "西川",
+            "airweave",
+            "Airdog",
+            "木屋",
+            "栗原はるみ",
+            "HOUSE OF ROSE"
+          ]
+        },
+        {
+          "level": "본관 7F",
+          "stores": [
+            "Mikihouse",
+            "Mezzo Piano",
+            "fitfit",
+            "JTB",
+            "Tokyo Soir",
+            "Arakawa Sanbi",
+            "KP",
+            "kladskap",
+            "Gift Station",
+            "松栄堂香音",
+            "DoCLASSE"
+          ]
+        },
+        {
+          "level": "본관 8F",
+          "stores": [
+            "행사장·카드·상품권·친구회",
+            "リナシェーレ"
+          ]
+        },
+        {
+          "level": "동관 B2F",
+          "stores": [
+            "味の兵四郎",
+            "井泉",
+            "四陸",
+            "萬坊",
+            "明治屋",
+            "やまこう",
+            "魚伊",
+            "梅の花",
+            "九州屋",
+            "東筑軒",
+            "道頓堀くくる",
+            "西利"
+          ]
+        },
+        {
+          "level": "동관 B1F",
+          "stores": [
+            "MUJI"
+          ]
+        },
+        {
+          "level": "동관 1F",
+          "stores": [
+            "ACSEINE",
+            "SK-II",
+            "Estée Lauder",
+            "Episteme/Obagi",
+            "Clarins",
+            "Clinique",
+            "Clé de Peau Beauté",
+            "Guerlain",
+            "Chanel",
+            "Givenchy",
+            "Jo Malone London",
+            "JILL STUART",
+            "SUQQU",
+            "BVLGARI",
+            "L'Occitane",
+            "TOM FORD BEAUTY",
+            "Neal's Yard",
+            "FANCL",
+            "Lancôme",
+            "La Prairie",
+            "ReFa",
+            "flower Plants"
+          ]
+        },
+        {
+          "level": "동관 2F",
+          "stores": [
+            "AKRIS",
+            "Jimmy Choo",
+            "Ferragamo",
+            "Brunello Cucinelli",
+            "HERNO",
+            "MONCLER",
+            "Versace",
+            "Christian Louboutin",
+            "Chrome Hearts",
+            "Gucci",
+            "Tom Ford",
+            "Excellent Room"
+          ]
+        },
+        {
+          "level": "동관 3F",
+          "stores": [
+            "TNC satellite",
+            "Blue Label Crestbridge",
+            "Margaret Howell",
+            "Maison Lella",
+            "Rose Tiara",
+            "Lautreamont",
+            "Essence of ANAYI",
+            "EPOCA",
+            "23区",
+            "Falconeri",
+            "russet"
+          ]
+        },
+        {
+          "level": "동관 4F",
+          "stores": [
+            "IWC",
+            "AKRIS punto",
+            "Jaeger-LeCoultre",
+            "Stenzhorn",
+            "Breitling",
+            "Breguet",
+            "Longines",
+            "Laurent Ferrier",
+            "Boutique Wako",
+            "SGC Gold Shop",
+            "Ermanno Scervino/Blumarine",
+            "Emporio Armani",
+            "Glashütte Original",
+            "Grand Seiko",
+            "Nadia",
+            "salon Entree",
+            "보청기·안경"
+          ]
+        },
+        {
+          "level": "동관 5F",
+          "stores": [
+            "Gallery UG",
+            "카페"
+          ]
+        },
+        {
+          "level": "동관 6F",
+          "stores": [
+            "炭焼き牛タン東山",
+            "甘味喫茶若竹",
+            "しゃぶ禅花柚香"
+          ]
+        }
+      ],
+      "officialFloorUrl": "https://www.daimaru-fukuoka.jp/floorguide/search/",
+      "floorVerifiedAt": "2026-11-14",
+      "floorNote": "노션 자료에 기록된 매장 목록입니다. 일부 층은 업종만 확인되므로 방문 전 공식 층별 안내를 확인하세요."
+    },
+    {
+      "id": "tenchika",
+      "name": "텐진 지하상가",
+      "area": "텐진",
+      "hours": "공식 안내 확인",
+      "address": "Fukuoka, Japan",
+      "description": "노션 층별 매장 정보",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%ED%85%90%EC%A7%84%20%EC%A7%80%ED%95%98%EC%83%81%EA%B0%80%20Fukuoka",
+      "floors": [
+        {
+          "level": "1번가",
+          "stores": [
+            "Apetito Cafe Metro",
+            "7-Eleven",
+            "동1 ROKUMEI COFFEE",
+            "JACK IN THE DONUTS",
+            "HEART BREAD ANTIQUE",
+            "서1 후쿠오카은행·SMBC ATM"
+          ]
+        },
+        {
+          "level": "2번가",
+          "stores": [
+            "Truffle Bakery",
+            "동2 ANKER STORE",
+            "서2 チロル"
+          ]
+        },
+        {
+          "level": "3번가",
+          "stores": [
+            "동3 니시닛폰시티은행 ATM",
+            "서3 일본우편 ATM"
+          ]
+        },
+        {
+          "level": "4번가",
+          "stores": [
+            "동4 BAKE Cheese Tart",
+            "세븐은행·후쿠오카은행 ATM",
+            "서4 RINGO"
+          ]
+        },
+        {
+          "level": "5번가",
+          "stores": [
+            "서5 니시닛폰시티은행 ATM"
+          ]
+        },
+        {
+          "level": "6번가",
+          "stores": [
+            "Oga 약국",
+            "서6 Chun Shui Tang",
+            "加辺屋",
+            "五ケ山豆腐SOY CAFE"
+          ]
+        },
+        {
+          "level": "7번가",
+          "stores": [
+            "동7 PRESS BUTTER SAND"
+          ]
+        },
+        {
+          "level": "8번가",
+          "stores": [
+            "VIE DE FRANCE Rêve de Paris",
+            "서8 帽子屋Flava"
+          ]
+        },
+        {
+          "level": "9번가",
+          "stores": [
+            "개별 매장 확인 필요"
+          ]
+        },
+        {
+          "level": "10번가",
+          "stores": [
+            "동10 GODIVA",
+            "복권"
+          ]
+        },
+        {
+          "level": "11번가",
+          "stores": [
+            "Starbucks",
+            "동11 KALDI",
+            "WithGreen",
+            "서11 Matsukiyo",
+            "Saint Marc Café",
+            "だし茶漬け＋肉うどん えん"
+          ]
+        },
+        {
+          "level": "12번가",
+          "stores": [
+            "BOUL'ANGE",
+            "서12 후쿠오카은행 ATM",
+            "Lawson"
+          ]
+        }
+      ],
+      "officialFloorUrl": "https://www.tenchika.com/shop/",
+      "floorVerifiedAt": "2026-11-14",
+      "floorNote": "노션 자료에 기록된 매장 목록입니다. 일부 층은 업종만 확인되므로 방문 전 공식 층별 안내를 확인하세요."
     }
   ],
   "places": [
