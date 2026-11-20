@@ -7,3 +7,40 @@
 
 /* Floor-by-floor store guide */
 .shop-card .floor-details{margin:12px 0 15px;padding:0;background:#fbf7f1;border:1px solid var(--line);border-radius:7px;overflow:hidden}.shop-card .floor-details summary{cursor:pointer;padding:12px 14px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px;font-size:12px;font-weight:800}.shop-card .floor-details summary small{font-size:10px;color:var(--dim)}.floor-details-inner{padding:12px;border-top:1px solid var(--line)}.shop-card .floor-notice{font-size:10px;line-height:1.5;color:var(--muted);margin:0 0 12px}.floor-rows{display:grid;gap:7px;max-height:420px;overflow:auto}.floor-row{display:grid;grid-template-columns:70px minmax(0,1fr);border:1px solid #eadfd3;border-radius:5px;overflow:hidden;background:#fffdf9}.floor-level{padding:10px 7px;background:#f0e6dc;color:#a34e38;font-size:11px;overflow-wrap:anywhere}.floor-store-list{display:flex;flex-wrap:wrap;gap:5px;padding:8px 10px}.floor-store{padding:4px 7px;border:1px solid #e9e2d9;border-radius:4px;background:white;font-size:11px;overflow-wrap:anywhere;max-width:100%}.floor-footer{display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap;padding:11px 2px 2px;font-size:10px;color:var(--dim)}.floor-footer a{color:var(--red);font-weight:800}
+
+
+/* Complete Notion food directory / responsive image cards */
+.food-extra-filters{display:flex;align-items:flex-end;flex-wrap:wrap;gap:12px;margin-top:13px}
+.food-extra-filters>label{display:flex;flex-direction:column;gap:5px;color:var(--muted);font-size:11px;font-weight:750}
+.food-extra-filters select{min-height:40px;min-width:154px;border:1px solid var(--line2);background:white;padding:9px 12px;border-radius:5px;font:inherit;color:var(--ink)}
+.food-extra-filters .food-photo-toggle{flex-direction:row;align-items:center;gap:7px;padding:8px 9px;cursor:pointer}
+.food-photo-toggle input{accent-color:var(--red);width:16px;height:16px}
+.food-source-note{font-size:11px;line-height:1.65;color:var(--muted);margin:10px 0 2px}
+.food-card.food-card-rich{min-height:0;padding:0;overflow:hidden}
+.food-card-rich>.card-topline{padding:17px 17px 0}
+.food-card-rich h3{margin:9px 17px 4px;font-size:17px;line-height:1.35}
+.food-jp{color:var(--muted);font-size:12px;line-height:1.55;margin:0 17px 13px;min-height:20px;overflow-wrap:anywhere}
+.food-figure{margin:0 0 9px}
+.food-image-link{position:relative;display:block;aspect-ratio:16/10;background:#f4e8dd;overflow:hidden;text-decoration:none}
+.food-image-link img{display:block;width:100%;height:100%;object-fit:cover}
+.food-picture-fallback{display:none;position:absolute;inset:0;padding:18px;font-size:12px;color:var(--muted);align-items:center;justify-content:center;text-align:center}
+.food-image-link img.food-image-broken{display:none}.food-image-link img.food-image-broken+.food-picture-fallback{display:flex}
+.food-photo-caption{display:block;margin:6px 17px;color:var(--dim);font-size:10px}
+.food-no-image{display:flex;justify-content:space-between;gap:8px;align-items:center;margin:0 17px 13px;padding:13px 12px;background:#f8f3ed;border-radius:5px;font-size:11px;color:var(--dim)}
+.food-no-image a{color:var(--red);font-weight:800;white-space:nowrap}
+.food-meta-line{padding:4px 17px 0;display:flex;align-items:center;gap:7px;font-size:12px}
+.food-meta-line strong{color:#9a6a25}.food-meta-line small{font-size:10px;color:var(--dim)}
+.food-menu-info{margin:9px 17px 11px;padding:12px 13px;background:#fcf7f1;border-left:3px solid var(--red)}
+.food-info-label{font-size:10px;font-weight:850;letter-spacing:.5px;color:var(--red)}
+.food-card-rich .food-menu-info p{margin:5px 0 7px;font-size:12px;color:var(--ink);line-height:1.5;font-weight:700}
+.food-budget{color:var(--ink);font-size:12px;font-weight:800}
+.food-budget small{font-size:11px;color:var(--muted);font-weight:500}
+.food-budget-unknown{color:var(--dim);font-size:11px}
+.food-detail{margin:0 17px 10px;padding:9px 10px;background:#f8f4ee;border:1px solid var(--line);border-radius:5px}
+.food-detail summary{cursor:pointer;font-weight:800;font-size:11px;color:var(--red)}
+.food-card-rich .food-detail p{margin:9px 0 0;font-size:11px;line-height:1.6}
+.food-source-links{display:flex;flex-wrap:wrap;gap:7px;margin-top:8px}
+.food-card-rich .food-detail .food-disclaimer{color:var(--dim);font-size:10px}
+.food-card-rich .food-bottom{padding:10px 17px 17px;display:flex;align-items:center;flex-wrap:wrap}
+.food-card-rich .food-bottom .card-price{font-size:10px;flex:1}
+@media(max-width:700px){.food-extra-filters>label:not(.food-photo-toggle){flex:1}.food-extra-filters select{width:100%;min-width:110px}.food-card-rich h3{font-size:17px}}

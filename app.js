@@ -1,5 +1,5 @@
 'use strict';
-const state = { data:null, tab:'overview', day:0, foodArea:'전체', foodSearch:'', foodLimit:18, shopArea:'전체', shopSearch:'', map:null };
+const state = { data:null, tab:'overview', day:0, foodArea:'전체', foodSearch:'', foodLimit:18, foodGenre:'전체', foodPhotosOnly:false, foodSort:'source', shopArea:'전체', shopSearch:'', map:null };
 const $ = selector => document.querySelector(selector);
 const $$ = selector => [...document.querySelectorAll(selector)];
 const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -54,7 +54,78 @@ function renderMap() {
 }
 function renderPlaces(d){$('#places').innerHTML=d.places.length?d.places.map(p=>`<article class="place-card"><div class="place-tag">${esc(p.kind||p.area)}</div><h4>${esc(p.name)}</h4><p>${esc(p.description||'')}</p>${link(mapUrl(p))}</article>`).join(''):'<div class="empty">등록된 관광지가 없습니다.</div>';}
 function chips(container,items,current,attribute) {container.innerHTML=['전체',...items.filter(x=>x!=='전체')].map(x=>`<button class="chip ${x===current?'active':''}" ${attribute}="${esc(x)}" aria-pressed="${x===current}">${esc(x)}</button>`).join('');}
-function renderFood(){const d=state.data;const areas=[...new Set(d.restaurants.map(x=>x.area||'기타'))];chips($('#foodAreas'),areas,state.foodArea,'data-food-area');const q=state.foodSearch.trim().toLocaleLowerCase('ko');const results=d.restaurants.filter(x=>(state.foodArea==='전체'||x.area===state.foodArea)&&(!q||[x.name,x.category,x.area,x.description].join(' ').toLocaleLowerCase('ko').includes(q)));$('#foodCount').textContent=`${results.length.toLocaleString('ko-KR')}곳`;$('#foodCards').innerHTML=results.length?results.slice(0,state.foodLimit).map(x=>`<article class="food-card"><div class="card-topline"><span class="food-category">${esc(x.category||'맛집')}</span><span class="food-area">${esc(x.area||'')}</span></div><h3>${esc(x.name)}</h3><p>${esc(x.description||'노션 여행 목록에 저장된 식당')}</p><div class="food-bottom"><span class="card-price">${x.priceYen?`¥${Number(x.priceYen).toLocaleString('ko-KR')}`:'상세 메뉴·가격 확인'}</span>${link(mapUrl(x))}</div></article>`).join(''):'<div class="empty">조건에 맞는 식당이 없어요. 검색어를 바꿔보세요.</div>';$('#foodMore').hidden=results.length<=state.foodLimit;}
+function budgetKRW(value){
+ if(!value)return "";
+ const nums=[...String(value).matchAll(/[\d,]+/g)].map(x=>Number(x[0].replaceAll(",",""))).filter(Number.isFinite);
+ if(!nums.length)return "";
+ const won=n=>"₩"+(Math.round(n*8.36/100)*100).toLocaleString("ko-KR");
+ return nums.length>=2?`약 ${won(nums[0])}~${won(nums[1])}`:`약 ${won(nums[0])}${/이하|미만/.test(value)?" 이하":""}`;
+}
+function renderFood(){
+ const d=state.data||{restaurants:[]};
+ const all=d.restaurants||[];
+ const areas=[...new Set(all.map(x=>x.area||"기타"))];
+ chips($("#foodAreas"),areas,state.foodArea,"data-food-area");
+ const genres=["전체",...[...new Set(all.map(x=>x.category||"기타"))].sort((a,b)=>a.localeCompare(b,"ko"))];
+ const genreEl=$("#foodGenre");
+ if(genreEl&&genreEl.options.length!==genres.length){
+  genreEl.innerHTML=genres.map(x=>`<option value="${esc(x)}">${esc(x==="전체"?"전체 음식 종류":x)}</option>`).join("");
+ }
+ if(genreEl)genreEl.value=state.foodGenre||"전체";
+ const q=String(state.foodSearch||"").trim().toLocaleLowerCase("ko");
+ const results=all.filter(x=>{
+  if(state.foodArea!=="전체"&&x.area!==state.foodArea)return false;
+  if(state.foodGenre&&state.foodGenre!=="전체"&&x.category!==state.foodGenre)return false;
+  if(state.foodPhotosOnly&&!(x.menuImages||[]).length)return false;
+  if(!q)return true;
+  return [x.name,x.japaneseName,x.koreanReading,x.area,x.category,x.mealType,x.menuDescription,x.description]
+    .filter(Boolean).join(" ").toLocaleLowerCase("ko").includes(q);
+ });
+ if(state.foodSort==="rating"){
+  results.sort((a,b)=>(b.tabelogRating||0)-(a.tabelogRating||0));
+ } else if(state.foodSort==="photo"){
+  results.sort((a,b)=>(b.menuImages?.length||0)-(a.menuImages?.length||0));
+ } else if(state.foodSort==="featured"){
+  results.sort((a,b)=>Number(!!b.featured)-Number(!!a.featured));
+ }
+ const numPhotos=results.filter(x=>x.menuImages?.length).length;
+ $("#foodCount").textContent=`${results.length.toLocaleString("ko-KR")}곳 · 사진 ${numPhotos}곳`;
+ const picks=results.slice(0,state.foodLimit);
+ $("#foodCards").innerHTML=picks.length?picks.map(x=>{
+  const photos=(x.menuImages||[]).filter(img=>/^https:\/\//.test(img.url||""));
+  const img=photos[0];
+  const price=x.priceRangeYen|| (x.priceYen?`¥${Number(x.priceYen).toLocaleString("ko-KR")}`:"");
+  const imageSection=img?`<div class="food-figure">
+     <a class="food-image-link" href="${esc(allowedUrl(img.url))}" target="_blank" rel="noopener noreferrer" aria-label="${esc(x.name)} 대표 음식 사진 확대">
+      <img loading="lazy" decoding="async" referrerpolicy="no-referrer" src="${esc(img.url)}" alt="${esc(img.alt||x.menuDescription||x.name+" 대표 음식 사진")}" onerror="this.classList.add('food-image-broken')">
+      <span class="food-picture-fallback">사진이 안 보이면 눌러 원본 사진 열기 ↗</span>
+     </a>
+     <small class="food-photo-caption">${esc(img.alt||"노션 대표 음식 사진")} · 사진 제공처에 따라 로딩이 제한될 수 있음</small>
+    </div>`:`<div class="food-no-image">📷 노션에 대표 음식 사진 없음 <a href="https://www.google.com/search?tbm=isch&amp;q=${encodeURIComponent((x.japaneseName||x.name)+" "+(x.menuDescription||"メニュー"))}" target="_blank" rel="noopener noreferrer">사진 검색 ↗</a></div>`;
+  const photoSource=x.imageSourceUrl&&allowedUrl(x.imageSourceUrl)?link(x.imageSourceUrl,"사진 출처 ↗"):"";
+  const restaurantSource=x.sourceUrl&&allowedUrl(x.sourceUrl)?link(x.sourceUrl,"식당 정보 ↗"):"";
+  return `<article class="food-card food-card-rich">
+    <div class="card-topline"><span class="food-category">${esc(x.category||"맛집")}</span><span class="food-area">${esc(x.area||"")}</span></div>
+    <h3 lang="ko">${esc(x.koreanReading||x.name)}</h3>
+    <div class="food-jp" lang="${x.japaneseName?"ja":"ko"}">${x.japaneseName?esc(x.japaneseName):"일본어 원어 상호 미확인"}</div>
+    ${imageSection}
+    <div class="food-meta-line">${x.tabelogRating?`<strong>⭐ ${Number(x.tabelogRating).toFixed(2)}</strong> <small>노션 기록 기준</small>`:"<small>타베로그 평점 미기재</small>"}</div>
+    <div class="food-menu-info">
+     <span class="food-info-label">대표 음식·메뉴</span>
+     <p>${esc(x.menuDescription||x.description||"대표 메뉴 정보 미기재")}</p>
+     ${price?`<div class="food-budget">${esc(price)} <small>(${esc(budgetKRW(price))})</small></div>`:"<div class='food-budget food-budget-unknown'>가격 미확인</div>"}
+    </div>
+    <details class="food-detail"><summary>식당 상세 정보 펼치기</summary>
+      ${x.description?`<p>${esc(x.description)}</p>`:""}
+      ${x.mealType?`<p>분류: ${esc(x.mealType)}</p>`:""}
+      <div class="food-source-links">${photoSource}${restaurantSource}</div>
+      <p class="food-disclaimer">대표 음식과 가격대는 노션 조사 자료이며 실시간 메뉴판·확정 가격이 아닙니다.</p>
+    </details>
+    <div class="food-bottom"><span class="card-price">가격은 1인 참고 예산 · 환율 변동 가능</span>${link(mapUrl(x),"지도·길찾기 ↗")}</div>
+   </article>`;
+ }).join(""):'<div class="empty">조건에 맞는 식당이 없습니다. 지역·음식 종류·사진 필터를 바꿔 보세요.</div>';
+ $("#foodMore").hidden=results.length<=state.foodLimit;
+}
 function renderShopping(){
  const d=state.data,q=state.shopSearch.trim().toLocaleLowerCase('ko');
  chips($('#shopAreas'),[...new Set(d.shopping.map(x=>x.area||'기타'))],state.shopArea,'data-shop-area');
@@ -86,6 +157,9 @@ function attachEvents(){
  });
  $('#foodSearch').addEventListener('input',e=>{state.foodSearch=e.target.value;state.foodLimit=18;renderFood();});
  $('#foodMore').addEventListener('click',()=>{state.foodLimit+=18;renderFood();});
+ $('#foodGenre').addEventListener('change',e=>{state.foodGenre=e.target.value;state.foodLimit=18;renderFood();});
+ $('#foodPhotosOnly').addEventListener('change',e=>{state.foodPhotosOnly=e.target.checked;state.foodLimit=18;renderFood();});
+ $('#foodSort').addEventListener('change',e=>{state.foodSort=e.target.value;state.foodLimit=18;renderFood();});
  $('#shopSearch').addEventListener('input',e=>{state.shopSearch=e.target.value;renderShopping();});
  $('#checkItems').addEventListener('change',e=>{const id=e.target.dataset.checkId;if(!id)return;const saved=checkedItems();saved[id]=e.target.checked;volatileChecks[id]=e.target.checked;try{localStorage.setItem('kyushu-checks-v1',JSON.stringify(saved))}catch{notice('이 브라우저에서는 체크 저장이 제한됩니다.')}updateChecklistProgress(state.data);});
  $('#resetChecklist').addEventListener('click',()=>{volatileChecks={};try{localStorage.removeItem('kyushu-checks-v1')}catch{}renderChecklist(state.data);notice('준비물 체크가 초기화되었습니다.');});

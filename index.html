@@ -66,7 +66,14 @@
     </section>
     <section class="panel" id="food" aria-labelledby="food-heading">
       <div class="section-intro"><div><div class="eyebrow red">EAT & ENJOY</div><h2 id="food-heading">맛있는 <em>여행</em></h2><p>노션에 모아둔 식당을 지역과 음식 종류로 찾아보세요.</p></div><div class="section-mark">05 / FOOD</div></div>
-      <div class="filter-panel"><label for="foodSearch" class="sr-only">식당 검색</label><div class="search-box"><span>⌕</span><input id="foodSearch" type="search" placeholder="식당 이름, 메뉴, 지역으로 검색…" autocomplete="off"></div><div class="filter-row"><div id="foodAreas" class="chip-row"></div><span class="result-count" id="foodCount"></span></div></div>
+      <div class="filter-panel"><label for="foodSearch" class="sr-only">식당 검색</label><div class="search-box"><span>⌕</span><input id="foodSearch" type="search" placeholder="식당 이름, 메뉴, 지역으로 검색…" autocomplete="off"></div><div class="filter-row"><div id="foodAreas" class="chip-row"></div><span class="result-count" id="foodCount"></span></div>
+      <div class="food-extra-filters">
+       <label for="foodGenre">음식 종류 <select id="foodGenre" aria-label="음식 종류 선택"><option value="전체">전체 음식 종류</option></select></label>
+       <label for="foodSort">정렬 <select id="foodSort"><option value="source">노션 수록 순서</option><option value="featured">여행 일정 관련 우선</option><option value="rating">평점 높은 순</option><option value="photo">사진 있는 곳 우선</option></select></label>
+       <label class="food-photo-toggle"><input id="foodPhotosOnly" type="checkbox"> 사진 있는 식당만</label>
+      </div>
+      <p class="food-source-note">노션에 정리된 356곳의 일본어·한국어 표기와 대표 음식 정보를 수록했습니다. 가격대는 개별 메뉴 가격이 아닌 1인 참고 예산이며, 원화는 2026.11.20 기준 100엔≈836원 환산 예시입니다. 실시간 환율과 다를 수 있습니다.</p>
+      </div>
       <div class="cards-grid" id="foodCards"></div><button class="load-more" id="foodMore" hidden>더 보기 ↓</button>
     </section>
     <section class="panel" id="shopping" aria-labelledby="shopping-heading">

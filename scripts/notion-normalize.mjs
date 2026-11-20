@@ -62,7 +62,11 @@ export function collectPublicEntries(tree){
      const nextPath=b.type==='toggle'?[...headingPath,t].filter(Boolean).slice(-12):headingPath;
      const current=runningSection||sectionOf(nextPath);
      if(current===4&&b.type==='toggle'){
-       const name=safeVenueName(raw);
+       let name=safeVenueName(raw);
+       // Rich Notion titles use Japanese name (Korean reading) · rating / price.
+       const reading=raw.match(/\(([^()]*[가-힣][^()]*)\)\s*(?:·|$)/u);
+       if(reading)name=safeVenueName(reading[1]);
+       else name=name.replace(/\s*·\s*(?:⭐|¥|￥).*$/u,'').trim();
        if(name&&!seenRestaurant.has(name.toLowerCase())&&!/^(?:레스토랑|식당|장소|유후인 식당|텐진).*(?:\d+곳|카테고리)/.test(name)) {
          const m={name,area:areaFromPath(nextPath),category:categoryFromPath(nextPath),description:'노션 여행 목록에 저장된 식당'};
          for(const child of (b.children||[]).slice(0,12)){

@@ -27,6 +27,8 @@ jobs:
           NOTION_ORIGINAL_PAGE_ID: ${{ vars.NOTION_ORIGINAL_PAGE_ID }}
         run: |
           if [ -n "$NOTION_TOKEN" ]; then npm run sync; else echo "NOTION_TOKEN 미설정: 초기 데이터를 사용합니다."; fi
+      - name: Check data integrity and normalization
+        run: npm test
       - name: Build static website
         run: npm run build
       - uses: actions/configure-pages@v5
