@@ -109,7 +109,7 @@ function renderFood(){
     <h3 lang="ko">${esc(x.koreanReading||x.name)}</h3>
     <div class="food-jp" lang="${x.japaneseName?"ja":"ko"}">${x.japaneseName?esc(x.japaneseName):"일본어 원어 상호 미확인"}</div>
     ${imageSection}
-    <div class="food-meta-line">${x.tabelogRating?`<strong>⭐ ${Number(x.tabelogRating).toFixed(2)}</strong> <small>노션 기록 기준</small>`:"<small>타베로그 평점 미기재</small>"}</div>
+    <div class="food-meta-line">${x.tabelogRating?`<strong>⭐ ${Number(x.tabelogRating).toFixed(2)}</strong> <small>${esc(x.ratingCheckedAt?('타베로그 확인 '+x.ratingCheckedAt):'노션 기록 기준')}</small>`:"<small>${esc(x.ratingNote||'타베로그 평점 미확인')}</small>"}</div>
     <div class="food-menu-info">
      <span class="food-info-label">대표 음식·메뉴</span>
      <p>${esc(x.menuDescription||x.description||"대표 메뉴 정보 미기재")}</p>

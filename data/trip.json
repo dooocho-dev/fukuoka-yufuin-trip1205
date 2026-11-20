@@ -13,7 +13,9 @@
     "notice": "노션 원본을 바탕으로 구성한 초기 데이터입니다. 교통·영업시간은 출발 전 재확인하세요.",
     "foodSource": "Notion GPT_일본여행계획 맛집 목록(2026-10-15 기준, 2026-11-20 수집).",
     "foodPhotoNote": "외부 원본 사진 링크로, 제공처 정책에 따라 표시가 제한될 수 있습니다.",
-    "foodUpdatedAt": "2026-11-20"
+    "foodUpdatedAt": "2026-11-20",
+    "yufuinRatingVerifiedAt": "2026-11-20",
+    "yufuinRatingNote": "타베로그 식당별 공개 평점 확인. 수치는 수시로 변동될 수 있으며, 일부 점수는 검색 인덱스의 최신 확인값과 차이가 날 수 있습니다. 평가 점수가 없는 식당은 임의로 입력하지 않습니다."
   },
   "days": [
     {
@@ -237,7 +239,7 @@
       "description": "긴린코 주변 대표 솥밥. 마감이 이른 편",
       "priceRangeYen": "¥2,000~2,999",
       "priceIsEstimate": true,
-      "tabelogRating": null,
+      "tabelogRating": 3.47,
       "menuImages": [
         {
           "url": "https://www.tiger-corporation.com/ja/jpn/static/feature/ricecooker/ryoutei/img/ooita_yufumabusisin_top.jpg",
@@ -246,7 +248,9 @@
       ],
       "imageSourceUrl": "https://www.tiger-corporation.com/ja/jpn/static/feature/ricecooker/ryoutei/ooita.html",
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%94%B1%E5%B8%83%E3%81%BE%E3%81%B6%E3%81%97%E5%BF%83%20%E9%87%91%E9%B1%97%E6%B9%96%E6%9C%AC%E5%BA%97%20%E7%94%B1%E5%B8%83%E9%99%A2%20%E5%A4%A7%E5%88%86",
-      "sourceUrl": null
+      "sourceUrl": "https://tabelog.com/oita/A4402/A440201/44008761/",
+      "ratingCheckedAt": "2026-11-20",
+      "ratingSource": "타베로그 공식 식당 페이지"
     },
     {
       "id": "notion-food-002",
@@ -260,7 +264,7 @@
       "description": "산초 향이 특징인 카레 우동",
       "priceRangeYen": "¥1,000~1,999",
       "priceIsEstimate": true,
-      "tabelogRating": null,
+      "tabelogRating": 3.53,
       "menuImages": [
         {
           "url": "https://tblg.k-img.com/restaurant/images/Rvw/164799/640x640_rect_15fa0445353288cbed42b84a80d3ace4.jpg",
@@ -269,7 +273,9 @@
       ],
       "imageSourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/164799/640x640_rect_15fa0445353288cbed42b84a80d3ace4.jpg",
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%8F%8A%E3%81%99%E3%81%91%20%E7%94%B1%E5%B8%83%E9%99%A2%20%E5%A4%A7%E5%88%86",
-      "sourceUrl": null
+      "sourceUrl": "https://tabelog.com/oita/A4402/A440201/44008319/",
+      "ratingCheckedAt": "2026-11-20",
+      "ratingSource": "타베로그 공식 식당 페이지"
     },
     {
       "id": "notion-food-003",
@@ -283,7 +289,7 @@
       "description": "풍경 좋은 소바. 중심가에서 이동시간 확인",
       "priceRangeYen": "¥1,000~1,999",
       "priceIsEstimate": true,
-      "tabelogRating": null,
+      "tabelogRating": 3.44,
       "menuImages": [
         {
           "url": "https://images.miil.me/j/533b9e6e-4659-11e6-b26a-22000aba161e.orig.jpg",
@@ -292,7 +298,9 @@
       ],
       "imageSourceUrl": "https://images.miil.me/j/533b9e6e-4659-11e6-b26a-22000aba161e.orig.jpg",
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=Murata%20%E4%B8%8D%E7%94%9F%E5%BA%B5%20%E7%94%B1%E5%B8%83%E9%99%A2%20%E5%A4%A7%E5%88%86",
-      "sourceUrl": null
+      "sourceUrl": "https://tabelog.com/oita/A4402/A440201/44000036/",
+      "ratingCheckedAt": "2026-11-20",
+      "ratingSource": "타베로그 공식 식당 페이지"
     },
     {
       "id": "notion-food-004",
@@ -306,7 +314,7 @@
       "description": "수타 소바 전문점",
       "priceRangeYen": "¥1,000~1,999",
       "priceIsEstimate": true,
-      "tabelogRating": null,
+      "tabelogRating": 3.48,
       "menuImages": [
         {
           "url": "https://stat.ameba.jp/user_images/20260117/09/miyasakonet/9d/88/p/o0512064015741660015.png",
@@ -315,7 +323,9 @@
       ],
       "imageSourceUrl": "https://stat.ameba.jp/user_images/20260117/09/miyasakonet/9d/88/p/o0512064015741660015.png",
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%8F%A4%E5%BC%8F%E6%89%8B%E6%89%93%E3%81%A1%E3%81%9D%E3%81%B0%E6%B3%89%20%E7%94%B1%E5%B8%83%E9%99%A2%20%E5%A4%A7%E5%88%86",
-      "sourceUrl": null
+      "sourceUrl": "https://tabelog.com/oita/A4402/A440201/44000041/",
+      "ratingCheckedAt": "2026-11-20",
+      "ratingSource": "타베로그 공식 식당 페이지"
     },
     {
       "id": "notion-food-005",
@@ -329,7 +339,7 @@
       "description": "오이타 지역식 정식과 전통 디저트",
       "priceRangeYen": "¥1,000~1,999",
       "priceIsEstimate": true,
-      "tabelogRating": null,
+      "tabelogRating": 3.39,
       "menuImages": [
         {
           "url": "https://tblg.k-img.com/restaurant/images/Rvw/218525/640x640_rect_1f7ee3158c0ae5feceba8b7a485debea.jpg",
@@ -338,7 +348,9 @@
       ],
       "imageSourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/218525/640x640_rect_1f7ee3158c0ae5feceba8b7a485debea.jpg",
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%94%B1%E5%B8%83%E9%99%A2%20%E7%94%98%E5%91%B3%E8%8C%B6%E5%B1%8B%20%E7%94%B1%E5%B8%83%E9%99%A2%20%E5%A4%A7%E5%88%86",
-      "sourceUrl": null
+      "sourceUrl": "https://tabelog.com/oita/A4402/A440201/44012192/",
+      "ratingCheckedAt": "2026-11-20",
+      "ratingSource": "타베로그 공식 식당 페이지"
     },
     {
       "id": "notion-food-006",
@@ -352,7 +364,7 @@
       "description": "고기 우동과 카보스 풍미",
       "priceRangeYen": "¥1,000~1,999",
       "priceIsEstimate": true,
-      "tabelogRating": null,
+      "tabelogRating": 3.28,
       "menuImages": [
         {
           "url": "https://tblg.k-img.com/restaurant/images/Rvw/216995/640x640_rect_ccc9cb39eda329eb5f6241bd215cb1a5.jpg",
@@ -361,7 +373,9 @@
       ],
       "imageSourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/216995/640x640_rect_ccc9cb39eda329eb5f6241bd215cb1a5.jpg",
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%85%83%E7%A5%96%E8%B1%8A%E5%BE%8C%E8%82%89%E6%B1%81%E3%81%86%E3%81%A9%E3%82%93%20%E7%94%B1%E5%B8%83%E9%99%A2%20%E5%A4%A7%E5%88%86",
-      "sourceUrl": null
+      "sourceUrl": "https://tabelog.com/oita/A4402/A440201/44011985/",
+      "ratingCheckedAt": "2026-11-20",
+      "ratingSource": "타베로그 공식 식당 페이지"
     },
     {
       "id": "notion-food-007",
@@ -375,7 +389,7 @@
       "description": "가성비 면요리",
       "priceRangeYen": "¥999 이하",
       "priceIsEstimate": true,
-      "tabelogRating": null,
+      "tabelogRating": 3.22,
       "menuImages": [
         {
           "url": "https://tblg.k-img.com/restaurant/images/Rvw/257129/640x640_rect_f4dd4d81b5c2cb9067e991f9ceb84c9a.jpg",
@@ -384,7 +398,9 @@
       ],
       "imageSourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/257129/640x640_rect_f4dd4d81b5c2cb9067e991f9ceb84c9a.jpg",
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%94%B0%E8%88%8E%E5%BA%B5%20%E7%94%B1%E5%B8%83%E9%99%A2%20%E5%A4%A7%E5%88%86",
-      "sourceUrl": null
+      "sourceUrl": "https://tabelog.com/oita/A4402/A440201/44001717/",
+      "ratingCheckedAt": "2026-11-20",
+      "ratingSource": "타베로그 공식 식당 페이지"
     },
     {
       "id": "notion-food-008",
@@ -398,7 +414,7 @@
       "description": "토리텐 정식 등 세트메뉴는 ¥1,000 이상 가능",
       "priceRangeYen": "¥999 이하",
       "priceIsEstimate": true,
-      "tabelogRating": null,
+      "tabelogRating": 3.09,
       "menuImages": [
         {
           "url": "https://stat.ameba.jp/user_images/20211121/15/kumachan-daisuki822/19/87/j/o1080130115034834510.jpg",
@@ -407,7 +423,9 @@
       ],
       "imageSourceUrl": "https://stat.ameba.jp/user_images/20211121/15/kumachan-daisuki822/19/87/j/o1080130115034834510.jpg",
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%93%E3%81%AF%E3%82%8B%E3%81%86%E3%81%A9%E3%82%93%20%E7%94%B1%E5%B8%83%E9%99%A2%20%E5%A4%A7%E5%88%86",
-      "sourceUrl": null
+      "sourceUrl": "https://tabelog.com/oita/A4402/A440201/44001656/",
+      "ratingCheckedAt": "2026-11-20",
+      "ratingSource": "타베로그 공식 식당 페이지"
     },
     {
       "id": "notion-food-009",
@@ -421,7 +439,7 @@
       "description": "점심 간편식·버거",
       "priceRangeYen": "¥1,000~1,999",
       "priceIsEstimate": true,
-      "tabelogRating": null,
+      "tabelogRating": 3.57,
       "menuImages": [
         {
           "url": "https://tblg.k-img.com/restaurant/images/Rvw/199726/640x640_rect_db2305f4e51582288605eb5b66d8fa09.jpg",
@@ -430,7 +448,9 @@
       ],
       "imageSourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/199726/640x640_rect_db2305f4e51582288605eb5b66d8fa09.jpg",
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%86%E3%81%B5%E3%81%84%E3%82%93%E3%83%90%E3%83%BC%E3%82%AC%E3%83%BC%E3%83%8F%E3%82%A6%E3%82%B9%20%E7%94%B1%E5%B8%83%E9%99%A2%20%E5%A4%A7%E5%88%86",
-      "sourceUrl": null
+      "sourceUrl": "https://tabelog.com/oita/A4402/A440201/44005389/",
+      "ratingCheckedAt": "2026-11-20",
+      "ratingSource": "타베로그 공식 식당 페이지"
     },
     {
       "id": "notion-food-010",
@@ -444,7 +464,7 @@
       "description": "역 근처 JA 직판장 옆. 토리텐 정식 약 ¥1,100 사례",
       "priceRangeYen": "¥1,000~1,999",
       "priceIsEstimate": true,
-      "tabelogRating": null,
+      "tabelogRating": 3.47,
       "menuImages": [
         {
           "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/32/79/de/e3/caption.jpg?h=1200&s=1&w=1200",
@@ -453,7 +473,9 @@
       ],
       "imageSourceUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/32/79/de/e3/caption.jpg?h=1200&s=1&w=1200",
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%99%BD%E3%81%A0%E3%81%BE%E3%82%8A%E9%A3%9F%E5%A0%82%20%E7%94%B1%E5%B8%83%E9%99%A2%20%E5%A4%A7%E5%88%86",
-      "sourceUrl": null
+      "sourceUrl": "https://tabelog.com/oita/A4402/A440201/44001054/",
+      "ratingCheckedAt": "2026-11-20",
+      "ratingSource": "타베로그 공식 식당 페이지"
     },
     {
       "id": "notion-food-011",
@@ -467,7 +489,7 @@
       "description": "유후인역 인근 아침·가벼운 식사 후보",
       "priceRangeYen": "¥1,000~2,000",
       "priceIsEstimate": true,
-      "tabelogRating": null,
+      "tabelogRating": 3.3,
       "menuImages": [
         {
           "url": "https://kosodatenotane.jp/files/Spots/b48900c9-a7f1-4a1f-90b4-e3ed5706b486/image/75a375d3bbaf7acc5e5547efee574fc6.jpg",
@@ -476,7 +498,9 @@
       ],
       "imageSourceUrl": "https://kosodatenotane.jp/files/Spots/b48900c9-a7f1-4a1f-90b4-e3ed5706b486/image/75a375d3bbaf7acc5e5547efee574fc6.jpg",
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%97%85%E3%82%80%E3%81%99%E3%81%B3%20(Tabimusubi)%20(%ED%83%80%EB%B9%84%EB%AC%B4%EC%8A%A4%EB%B9%84)%20%E7%A6%8F%E5%B2%A1",
-      "sourceUrl": null
+      "sourceUrl": "https://tabelog.com/oita/A4402/A440201/44013284/",
+      "ratingCheckedAt": "2026-11-20",
+      "ratingSource": "타베로그 공식 식당 페이지"
     },
     {
       "id": "notion-food-012",
@@ -490,7 +514,7 @@
       "description": "고지대 전망 이탈리안. 차량 이동 고려",
       "priceRangeYen": "¥1,000~1,999",
       "priceIsEstimate": true,
-      "tabelogRating": null,
+      "tabelogRating": 3.67,
       "menuImages": [
         {
           "url": "https://tblg.k-img.com/restaurant/images/Rvw/159592/640x640_rect_159592176.jpg",
@@ -499,7 +523,9 @@
       ],
       "imageSourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/159592/640x640_rect_159592176.jpg",
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%AA%AA%E3%81%AE%E4%B8%98%20%E7%94%B1%E5%B8%83%E9%99%A2%20%E5%A4%A7%E5%88%86",
-      "sourceUrl": null
+      "sourceUrl": "https://tabelog.com/oita/A4402/A440201/44000453/",
+      "ratingCheckedAt": "2026-11-20",
+      "ratingSource": "타베로그 공식 식당 페이지"
     },
     {
       "id": "notion-food-013",
@@ -513,7 +539,7 @@
       "description": "츠카하라 지역. 차로 이동하는 편이 좋음",
       "priceRangeYen": "¥2,000~2,999",
       "priceIsEstimate": true,
-      "tabelogRating": null,
+      "tabelogRating": 3.42,
       "menuImages": [
         {
           "url": "https://stat.ameba.jp/user_images/20180818/00/shonanzakkaten/e5/68/j/o0700046714249524068.jpg",
@@ -522,7 +548,9 @@
       ],
       "imageSourceUrl": "https://stat.ameba.jp/user_images/20180818/00/shonanzakkaten/e5/68/j/o0700046714249524068.jpg",
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A1%9A%E5%8E%9F%E3%81%AE%E9%87%8C%20%E7%94%B1%E5%B8%83%E9%99%A2%20%E5%A4%A7%E5%88%86",
-      "sourceUrl": null
+      "sourceUrl": "https://tabelog.com/oita/A4402/A440201/44000493/",
+      "ratingCheckedAt": "2026-11-20",
+      "ratingSource": "타베로그 공식 식당 페이지"
     },
     {
       "id": "notion-food-014",
@@ -536,7 +564,7 @@
       "description": "유후인 외곽 산쪽. 차량 이동 필요",
       "priceRangeYen": "¥3,000~3,999",
       "priceIsEstimate": true,
-      "tabelogRating": null,
+      "tabelogRating": 3.25,
       "menuImages": [
         {
           "url": "https://ximg.retty.me/crop/s400x400/q80/das/-/retty/img_repo/l/01/25212191.jpg",
@@ -545,7 +573,9 @@
       ],
       "imageSourceUrl": "https://ximg.retty.me/crop/s400x400/q80/das/-/retty/img_repo/l/01/25212191.jpg",
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%9C%B0%E9%B6%8F%EF%BC%8D%E9%AB%98%E5%A4%A9%E5%8E%9F%20%E7%94%B1%E5%B8%83%E9%99%A2%20%E5%A4%A7%E5%88%86",
-      "sourceUrl": null
+      "sourceUrl": "https://tabelog.com/oita/A4402/A440201/44006514/",
+      "ratingCheckedAt": "2026-11-20",
+      "ratingSource": "타베로그 공식 식당 페이지"
     },
     {
       "id": "notion-food-015",
@@ -559,7 +589,7 @@
       "description": "십할 소바·수타 메밀 전문",
       "priceRangeYen": "¥1,000~1,999",
       "priceIsEstimate": true,
-      "tabelogRating": null,
+      "tabelogRating": 3.23,
       "menuImages": [
         {
           "url": "https://tabelog.com/restaurant/images/Rvw/186114/640x640_rect_97a79b6dbd7c1acf78f2e204e4df831d.jpg",
@@ -568,7 +598,9 @@
       ],
       "imageSourceUrl": "https://tabelog.com/restaurant/images/Rvw/186114/640x640_rect_97a79b6dbd7c1acf78f2e204e4df831d.jpg",
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%9F%B3%E8%87%BC%E6%8C%BD%E6%89%8B%E6%89%93%E3%81%A1%E5%8D%81%E5%89%B2%E8%95%8E%E9%BA%A6%20%E6%B8%A9%E5%B7%9D%20%E7%94%B1%E5%B8%83%E9%99%A2%20%E5%A4%A7%E5%88%86",
-      "sourceUrl": null
+      "sourceUrl": "https://tabelog.com/oita/A4402/A440201/44001122/",
+      "ratingCheckedAt": "2026-11-20",
+      "ratingSource": "타베로그 공식 식당 페이지"
     },
     {
       "id": "notion-food-016",
@@ -582,7 +614,7 @@
       "description": "유후인역 앞. 저녁 식사 후보, 대기 가능성 높음",
       "priceRangeYen": "¥3,000~3,999",
       "priceIsEstimate": true,
-      "tabelogRating": null,
+      "tabelogRating": 3.5,
       "menuImages": [
         {
           "url": "https://cdn.sarah30.com/reviews/photos/000/798/206/x_large/5bfc3d224c92bfaea529aa4f1a33ed878138b80b.jpg",
@@ -591,7 +623,9 @@
       ],
       "imageSourceUrl": "https://sarah30.com/menus/72035",
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%94%B1%E5%B8%83%E3%81%BE%E3%81%B6%E3%81%97%20%E5%BF%83%20%E9%A7%85%E5%89%8D%E6%94%AF%E5%BA%97%20%E7%94%B1%E5%B8%83%E9%99%A2%20%E5%A4%A7%E5%88%86",
-      "sourceUrl": null
+      "sourceUrl": "https://tabelog.com/oita/A4402/A440201/44005142/",
+      "ratingCheckedAt": "2026-11-20",
+      "ratingSource": "타베로그 공식 식당 페이지"
     },
     {
       "id": "notion-food-017",
@@ -605,7 +639,7 @@
       "description": "저녁 고기 식사에 적합. 예약 권장",
       "priceRangeYen": "¥3,000~3,999",
       "priceIsEstimate": true,
-      "tabelogRating": null,
+      "tabelogRating": 3.45,
       "menuImages": [
         {
           "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/33/e5/48/wasaku.jpg?h=1100&s=1&w=1100",
@@ -614,7 +648,9 @@
       ],
       "imageSourceUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/33/e5/48/wasaku.jpg?h=1100&s=1&w=1100",
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%83%E5%8E%98%E7%84%BC%E3%81%8D%E5%92%8C%E4%BD%9C%20%E7%94%B1%E5%B8%83%E9%99%A2%20%E5%A4%A7%E5%88%86",
-      "sourceUrl": null
+      "sourceUrl": "https://tabelog.com/oita/A4402/A440201/44003060/",
+      "ratingCheckedAt": "2026-11-20",
+      "ratingSource": "타베로그 공식 식당 페이지"
     },
     {
       "id": "notion-food-018",
@@ -628,7 +664,7 @@
       "description": "고기류 전문점. 방문 전에 예약·운영시간 확인",
       "priceRangeYen": "¥3,000~3,999",
       "priceIsEstimate": true,
-      "tabelogRating": null,
+      "tabelogRating": 3.21,
       "menuImages": [
         {
           "url": "https://ximg.retty.me/crop/s400x400/q80/das/-/retty/img_ebisu/restaurant/100001634178/archive/2707658-627dfd517d836.jpg",
@@ -637,7 +673,9 @@
       ],
       "imageSourceUrl": "https://ximg.retty.me/crop/s400x400/q80/das/-/retty/img_ebisu/restaurant/100001634178/archive/2707658-627dfd517d836.jpg",
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%83%E8%BC%AA%E7%82%AD%E7%81%AB%E7%84%BC%20%E5%95%93%E4%BF%AE%E5%BA%B5%20%E7%94%B1%E5%B8%83%E9%99%A2%20%E5%A4%A7%E5%88%86",
-      "sourceUrl": null
+      "sourceUrl": "https://tabelog.com/oita/A4402/A440201/44012663/",
+      "ratingCheckedAt": "2026-11-20",
+      "ratingSource": "타베로그 공식 식당 페이지"
     },
     {
       "id": "notion-food-019",
@@ -651,7 +689,7 @@
       "description": "현지식 안주와 술. 주말 예약 권장",
       "priceRangeYen": "¥2,000~2,999",
       "priceIsEstimate": true,
-      "tabelogRating": null,
+      "tabelogRating": 3.13,
       "menuImages": [
         {
           "url": "https://tblg.k-img.com/restaurant/images/Rvw/250352/640x640_rect_e4ebfb59727a2dbe992a1bfaf8df2f98.jpg",
@@ -660,7 +698,9 @@
       ],
       "imageSourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/250352/640x640_rect_e4ebfb59727a2dbe992a1bfaf8df2f98.jpg",
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B1%85%E9%85%92%E5%B1%8B%20%E7%A6%8F%E8%94%B5%20%E7%94%B1%E5%B8%83%E9%99%A2%20%E5%A4%A7%E5%88%86",
-      "sourceUrl": null
+      "sourceUrl": "https://tabelog.com/oita/A4402/A440201/44011840/",
+      "ratingCheckedAt": "2026-11-20",
+      "ratingSource": "타베로그 공식 식당 페이지"
     },
     {
       "id": "notion-food-020",
@@ -674,7 +714,7 @@
       "description": "저녁에 식사 겸 술 마시기 좋은 후보",
       "priceRangeYen": "¥3,000~3,999",
       "priceIsEstimate": true,
-      "tabelogRating": null,
+      "tabelogRating": 3.08,
       "menuImages": [
         {
           "url": "https://tblg.k-img.com/restaurant/images/Rvw/185965/9e9d7b749354ae48450db6042ab5ed52.jpg",
@@ -683,7 +723,9 @@
       ],
       "imageSourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/185965/9e9d7b749354ae48450db6042ab5ed52.jpg",
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B1%85%E9%85%92%E5%B1%8B%20%E3%81%90%E3%81%A3%E3%81%95%E3%82%93%20%E7%94%B1%E5%B8%83%E9%99%A2%20%E5%A4%A7%E5%88%86",
-      "sourceUrl": null
+      "sourceUrl": "https://tabelog.com/oita/A4402/A440201/44011506/",
+      "ratingCheckedAt": "2026-11-20",
+      "ratingSource": "타베로그 공식 식당 페이지"
     },
     {
       "id": "notion-food-021",
@@ -706,7 +748,10 @@
       ],
       "imageSourceUrl": "https://map.yahoo.co.jp/v3/place/-PdqLoYLRYg",
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9C%88%E8%8A%B1%20%E7%94%B1%E5%B8%83%E9%99%A2%20%E5%A4%A7%E5%88%86",
-      "sourceUrl": null
+      "sourceUrl": "https://tabelog.com/oita/A4402/A440201/44012666/",
+      "ratingCheckedAt": "2026-11-20",
+      "ratingSource": "타베로그 공식 식당 페이지",
+      "ratingNote": "타베로그에서 평가 점수 미표시"
     },
     {
       "id": "notion-food-022",
@@ -720,7 +765,7 @@
       "description": "저녁 초밥/해산물. 사전 연락 권장",
       "priceRangeYen": "¥4,000~4,999",
       "priceIsEstimate": true,
-      "tabelogRating": null,
+      "tabelogRating": 3.03,
       "menuImages": [
         {
           "url": "https://i.autoreserve.com/thumb/1600x1600/restaurant_image/image/054/021/221/54021221/2f7fc9c8-06ef-49bd-9b15-ec0dd1146caf.jpeg?format=webp",
@@ -729,7 +774,9 @@
       ],
       "imageSourceUrl": "https://i.autoreserve.com/thumb/1600x1600/restaurant_image/image/054/021/221/54021221/2f7fc9c8-06ef-49bd-9b15-ec0dd1146caf.jpeg?format=webp",
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AE%A8%E3%83%80%E3%82%A4%E3%83%8B%E3%83%B3%E3%82%B0%20%E6%BD%AE%20%E7%94%B1%E5%B8%83%E9%99%A2%20%E5%A4%A7%E5%88%86",
-      "sourceUrl": null
+      "sourceUrl": "https://tabelog.com/oita/A4402/A440201/44011270/",
+      "ratingCheckedAt": "2026-11-20",
+      "ratingSource": "타베로그 공식 식당 페이지"
     },
     {
       "id": "notion-food-023",
@@ -743,7 +790,7 @@
       "description": "유후인역 인근, 고기요리 중심. 주의: 타베로그는 게재 보류, 업체 사이트에는 폐점으로 표시됨(2026-10-15 확인). 방문 전 영업 여부 확인 필수. [상태 출처](https://tabelog.com/oita/A4402/A440201/44014644/)",
       "priceRangeYen": "¥4,000~4,999",
       "priceIsEstimate": true,
-      "tabelogRating": null,
+      "tabelogRating": 3.04,
       "menuImages": [
         {
           "url": "https://imgfp.hotp.jp/IMGH/43/88/P049364388/P049364388_480.jpg",
@@ -752,7 +799,9 @@
       ],
       "imageSourceUrl": "https://www.hotpepper.jp/strJ004558474/",
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=J-tapas%20%E7%94%B1%E5%B8%83%E9%99%A2%20%E5%A4%A7%E5%88%86",
-      "sourceUrl": "https://tabelog.com/oita/A4402/A440201/44014644/"
+      "sourceUrl": "https://tabelog.com/oita/A4402/A440201/44014644/",
+      "ratingCheckedAt": "2026-11-20",
+      "ratingSource": "타베로그 공식 식당 페이지"
     },
     {
       "id": "notion-food-024",
@@ -766,7 +815,7 @@
       "description": "긴린코 쪽 고급 식사. 예약·저녁 이용조건 확인",
       "priceRangeYen": "¥10,000~14,999",
       "priceIsEstimate": true,
-      "tabelogRating": null,
+      "tabelogRating": 3.75,
       "menuImages": [
         {
           "url": "https://www.visit-oita.jp/files/cache/c4d4c03cba0356769636fe8feebc86b8_1724740882.jpg",
@@ -775,7 +824,9 @@
       ],
       "imageSourceUrl": "https://www.visit-oita.jp/files/cache/c4d4c03cba0356769636fe8feebc86b8_1724740882.jpg",
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B9%AF%E3%81%AE%E5%B2%B3%E5%BA%B5%20%E7%94%B1%E5%B8%83%E9%99%A2%20%E5%A4%A7%E5%88%86",
-      "sourceUrl": null
+      "sourceUrl": "https://tabelog.com/oita/A4402/A440201/44000042/",
+      "ratingCheckedAt": "2026-11-20",
+      "ratingSource": "타베로그 공식 식당 페이지"
     },
     {
       "id": "notion-food-025",
@@ -789,7 +840,7 @@
       "description": "차분한 식사·코스 중심. 예약 권장",
       "priceRangeYen": "¥8,000~9,999",
       "priceIsEstimate": true,
-      "tabelogRating": null,
+      "tabelogRating": 3.42,
       "menuImages": [
         {
           "url": "https://tblg.k-img.com/restaurant/images/Rvw/311251/640x640_rect_4cd9d0530d1ae821a7136619567c392b.jpg",
@@ -798,7 +849,9 @@
       ],
       "imageSourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/311251/640x640_rect_4cd9d0530d1ae821a7136619567c392b.jpg",
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%86%E3%81%B5%E3%81%84%E3%82%93%E5%B1%B1%E6%A4%92%E9%83%8E%20%E7%94%B1%E5%B8%83%E9%99%A2%20%E5%A4%A7%E5%88%86",
-      "sourceUrl": null
+      "sourceUrl": "https://tabelog.com/oita/A4402/A440201/44007612/",
+      "ratingCheckedAt": "2026-11-20",
+      "ratingSource": "타베로그 공식 식당 페이지"
     },
     {
       "id": "notion-food-026",
@@ -812,7 +865,7 @@
       "description": "군닭 화로구이 세트가 알려진 곳",
       "priceRangeYen": "¥6,000~7,999",
       "priceIsEstimate": true,
-      "tabelogRating": null,
+      "tabelogRating": 3.33,
       "menuImages": [
         {
           "url": "https://tblg.k-img.com/restaurant/images/Rvw/269689/640x640_rect_9c06c7f5a1ef01c80b8e7438c1154e4c.jpg",
@@ -821,7 +874,9 @@
       ],
       "imageSourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/269689/640x640_rect_9c06c7f5a1ef01c80b8e7438c1154e4c.jpg",
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B9%AF%E5%B8%83%E9%99%A2%20%E5%9B%B2%E7%82%89%E8%A3%8F%E7%84%BC%E3%81%8D%20%E5%9B%9B%E6%96%B9%E5%B1%B1%20%E7%94%B1%E5%B8%83%E9%99%A2%20%E5%A4%A7%E5%88%86",
-      "sourceUrl": null
+      "sourceUrl": "https://tabelog.com/oita/A4402/A440201/44012474/",
+      "ratingCheckedAt": "2026-11-20",
+      "ratingSource": "타베로그 공식 식당 페이지"
     },
     {
       "id": "notion-food-027",
@@ -835,7 +890,7 @@
       "description": "일식 정식과 덮밥. 저녁 방문 가능 여부 확인",
       "priceRangeYen": "¥2,000~2,999",
       "priceIsEstimate": true,
-      "tabelogRating": null,
+      "tabelogRating": 3.25,
       "menuImages": [
         {
           "url": "https://tblg.k-img.com/restaurant/images/Rvw/199724/640x640_rect_67f406db68090318fb3bb3c55138711f.jpg",
@@ -844,7 +899,9 @@
       ],
       "imageSourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/199724/640x640_rect_67f406db68090318fb3bb3c55138711f.jpg",
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%9F%E3%81%91%E3%81%8A%20%E7%94%B1%E5%B8%83%E9%99%A2%20%E5%A4%A7%E5%88%86",
-      "sourceUrl": null
+      "sourceUrl": "https://tabelog.com/oita/A4402/A440201/44000045/",
+      "ratingCheckedAt": "2026-11-20",
+      "ratingSource": "타베로그 공식 식당 페이지"
     },
     {
       "id": "notion-food-028",
@@ -858,7 +915,7 @@
       "description": "일식 외 다른 종류의 저녁 식사 후보",
       "priceRangeYen": "¥3,000~3,999",
       "priceIsEstimate": true,
-      "tabelogRating": null,
+      "tabelogRating": 3.12,
       "menuImages": [
         {
           "url": "https://tblg.k-img.com/restaurant/images/Rvw/34596/640x640_rect_34596651.jpg",
@@ -867,7 +924,9 @@
       ],
       "imageSourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/34596/640x640_rect_34596651.jpg",
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%AC%E3%82%B9%E3%83%88%E3%83%A9%E3%83%B3%20%E5%8D%97%E3%81%AE%E9%A2%A8%20%E7%94%B1%E5%B8%83%E9%99%A2%20%E5%A4%A7%E5%88%86",
-      "sourceUrl": null
+      "sourceUrl": "https://tabelog.com/oita/A4402/A440201/44000252/",
+      "ratingCheckedAt": "2026-11-20",
+      "ratingSource": "타베로그 공식 식당 페이지"
     },
     {
       "id": "notion-food-029",
@@ -881,7 +940,7 @@
       "description": "영업일 일부에 저녁 운영. 토요일 저녁 시간 재확인",
       "priceRangeYen": "¥1,000~1,999",
       "priceIsEstimate": true,
-      "tabelogRating": null,
+      "tabelogRating": 3.12,
       "menuImages": [
         {
           "url": "https://hatako-trip.com/wp-content/uploads/2019/07/IMG_20190709_140058.jpg",
@@ -890,7 +949,9 @@
       ],
       "imageSourceUrl": "https://hatako-trip.com/wp-content/uploads/2019/07/IMG_20190709_140058.jpg",
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%9C%B0%E9%B6%8F%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3%20%E7%A6%8F%E5%8A%A9%20%E7%94%B1%E5%B8%83%E9%99%A2%20%E5%A4%A7%E5%88%86",
-      "sourceUrl": null
+      "sourceUrl": "https://tabelog.com/oita/A4402/A440201/44004857/",
+      "ratingCheckedAt": "2026-11-20",
+      "ratingSource": "타베로그 공식 식당 페이지"
     },
     {
       "id": "notion-food-030",
@@ -904,7 +965,7 @@
       "description": "저녁 초밥 후보. 운영시간·예약 확인",
       "priceRangeYen": "¥3,000~3,999",
       "priceIsEstimate": true,
-      "tabelogRating": null,
+      "tabelogRating": 3.06,
       "menuImages": [
         {
           "url": "https://imgfp.hotp.jp/IMGH/33/10/P047903310/P047903310_480.jpg",
@@ -913,7 +974,9 @@
       ],
       "imageSourceUrl": "https://imgfp.hotp.jp/IMGH/33/10/P047903310/P047903310_480.jpg",
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%AF%BF%E5%8F%B8%E3%82%86%E3%81%B5%E3%81%84%E3%82%93%20%E7%94%B1%E5%B8%83%E9%99%A2%20%E5%A4%A7%E5%88%86",
-      "sourceUrl": null
+      "sourceUrl": "https://tabelog.com/oita/A4402/A440201/44014284/",
+      "ratingCheckedAt": "2026-11-20",
+      "ratingSource": "타베로그 공식 식당 페이지"
     },
     {
       "id": "notion-food-031",
@@ -927,7 +990,7 @@
       "description": "식사보다는 식후 바·카페. 방문 조건 확인",
       "priceRangeYen": "¥1,000~1,999",
       "priceIsEstimate": true,
-      "tabelogRating": null,
+      "tabelogRating": 3.45,
       "menuImages": [
         {
           "url": "https://cdn-ak.f.st-hatena.com/images/fotolife/h/happydust/20170214/20170214021403.jpg",
@@ -936,7 +999,9 @@
       ],
       "imageSourceUrl": "https://cdn-ak.f.st-hatena.com/images/fotolife/h/happydust/20170214/20170214021403.jpg",
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=Tan's%20bar%20%E7%94%B1%E5%B8%83%E9%99%A2%20%E5%A4%A7%E5%88%86",
-      "sourceUrl": null
+      "sourceUrl": "https://tabelog.com/oita/A4402/A440201/44000143/",
+      "ratingCheckedAt": "2026-11-20",
+      "ratingSource": "타베로그 공식 식당 페이지"
     },
     {
       "id": "notion-food-032",
@@ -950,7 +1015,7 @@
       "description": "유후인역 인근 정식·카페형 식사",
       "priceRangeYen": "¥3,000~3,999",
       "priceIsEstimate": true,
-      "tabelogRating": null,
+      "tabelogRating": 3.14,
       "menuImages": [
         {
           "url": "https://livedoor.blogimg.jp/chocolachocola6290-shyoku/imgs/c/0/c09bfc7d.jpg",
@@ -959,7 +1024,10 @@
       ],
       "imageSourceUrl": "https://livedoor.blogimg.jp/chocolachocola6290-shyoku/imgs/c/0/c09bfc7d.jpg",
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%AD%E3%82%93%E3%82%8A%E3%82%93%20%E7%94%B1%E5%B8%83%E9%99%A2%20%E5%A4%A7%E5%88%86",
-      "sourceUrl": null
+      "sourceUrl": "https://tabelog.com/oita/A4402/A440201/44002514/",
+      "ratingCheckedAt": "2026-11-20",
+      "ratingSource": "타베로그 공식 식당 페이지",
+      "ratingNote": "영업 여부는 별도 확인 필요"
     },
     {
       "id": "notion-food-033",
@@ -973,7 +1041,7 @@
       "description": "긴린코 인근 고풍스러운 분위기. 식사 메뉴는 더 비쌀 수 있음",
       "priceRangeYen": "¥1,000~1,999",
       "priceIsEstimate": true,
-      "tabelogRating": null,
+      "tabelogRating": 3.66,
       "menuImages": [
         {
           "url": "https://cdn-ak.f.st-hatena.com/images/fotolife/c/ckkanazawa/20240601/20240601023118.jpg",
@@ -982,7 +1050,9 @@
       ],
       "imageSourceUrl": "https://cdn-ak.f.st-hatena.com/images/fotolife/c/ckkanazawa/20240601/20240601023118.jpg",
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%8C%B6%E6%88%BF%20%E5%A4%A9%E4%BA%95%E6%A3%A7%E6%95%B7%20%E7%94%B1%E5%B8%83%E9%99%A2%20%E5%A4%A7%E5%88%86",
-      "sourceUrl": null
+      "sourceUrl": "https://tabelog.com/oita/A4402/A440201/44000043/",
+      "ratingCheckedAt": "2026-11-20",
+      "ratingSource": "타베로그 공식 식당 페이지"
     },
     {
       "id": "notion-food-034",
@@ -996,7 +1066,7 @@
       "description": "호숫가 뷰 카페, 아침 식사로도 인기",
       "priceRangeYen": "¥1,000~1,999",
       "priceIsEstimate": true,
-      "tabelogRating": null,
+      "tabelogRating": 3.53,
       "menuImages": [
         {
           "url": "https://tabiiro.jp/gourmet/s/303337-yufu-chagall-museum-cafe/menu/210543/img1-1612939475423-9357.jpg",
@@ -1005,7 +1075,9 @@
       ],
       "imageSourceUrl": "https://tabiiro.jp/gourmet/s/303337-yufu-chagall-museum-cafe/menu/210543/img1-1612939475423-9357.jpg",
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=CAFE%20LA%20RUCHE%20%E7%94%B1%E5%B8%83%E9%99%A2%20%E5%A4%A7%E5%88%86",
-      "sourceUrl": null
+      "sourceUrl": "https://tabelog.com/oita/A4402/A440201/44000040/",
+      "ratingCheckedAt": "2026-11-20",
+      "ratingSource": "타베로그 공식 식당 페이지"
     },
     {
       "id": "notion-food-035",
@@ -1019,7 +1091,7 @@
       "description": "일부 기간 숙박객만 이용 가능하다는 정보 있어 이용조건 확인 필수",
       "priceRangeYen": "¥1,000~1,999",
       "priceIsEstimate": true,
-      "tabelogRating": null,
+      "tabelogRating": 3.52,
       "menuImages": [
         {
           "url": "https://tblg.k-img.com/restaurant/images/Rvw/326596/640x640_rect_cdaa4a4b748ddd01c578d5ccee00a2e8.jpg",
@@ -1028,7 +1100,9 @@
       ],
       "imageSourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/326596/640x640_rect_cdaa4a4b748ddd01c578d5ccee00a2e8.jpg",
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%86%E3%82%A3%E3%83%BC%E3%83%AB%E3%83%BC%E3%83%A0%20Nicol%20%E7%94%B1%E5%B8%83%E9%99%A2%20%E5%A4%A7%E5%88%86",
-      "sourceUrl": null
+      "sourceUrl": "https://tabelog.com/oita/A4402/A440201/44000141/",
+      "ratingCheckedAt": "2026-11-20",
+      "ratingSource": "타베로그 공식 식당 페이지"
     },
     {
       "id": "notion-food-036",
@@ -1042,7 +1116,7 @@
       "description": "조용한 카페. 영업일 확인",
       "priceRangeYen": "¥1,000~1,999",
       "priceIsEstimate": true,
-      "tabelogRating": null,
+      "tabelogRating": 3.41,
       "menuImages": [
         {
           "url": "https://stat.ameba.jp/user_images/20250930/23/mimitan-gourmet/65/2f/j/o0810108015687081858.jpg",
@@ -1051,7 +1125,9 @@
       ],
       "imageSourceUrl": "https://stat.ameba.jp/user_images/20250930/23/mimitan-gourmet/65/2f/j/o0810108015687081858.jpg",
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%86%E3%82%A3%E3%83%BC%E3%83%AB%E3%83%BC%E3%83%A0%20%E3%83%86%E3%83%86%E3%82%AA%20%E7%94%B1%E5%B8%83%E9%99%A2%20%E5%A4%A7%E5%88%86",
-      "sourceUrl": null
+      "sourceUrl": "https://tabelog.com/oita/A4402/A440201/44006516/",
+      "ratingCheckedAt": "2026-11-20",
+      "ratingSource": "타베로그 공식 식당 페이지"
     },
     {
       "id": "notion-food-037",
@@ -1065,7 +1141,7 @@
       "description": "유후산 전망. 역과 거리 확인",
       "priceRangeYen": "¥1,000~1,999",
       "priceIsEstimate": true,
-      "tabelogRating": null,
+      "tabelogRating": 3.26,
       "menuImages": [
         {
           "url": "https://tblg.k-img.com/restaurant/images/Rvw/357968/640x640_rect_844720582c0ccdc0d0c6ddedde4eafc0.jpg",
@@ -1074,7 +1150,9 @@
       ],
       "imageSourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/357968/640x640_rect_844720582c0ccdc0d0c6ddedde4eafc0.jpg",
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%94%B1%E5%B8%83%E5%B2%B3%E4%B8%80%E6%9C%9B%E3%81%AE%E3%82%AB%E3%83%95%E3%82%A7%20%E5%8D%83%E5%AE%B6%20%E7%94%B1%E5%B8%83%E9%99%A2%20%E5%A4%A7%E5%88%86",
-      "sourceUrl": null
+      "sourceUrl": "https://tabelog.com/oita/A4402/A440201/44010266/",
+      "ratingCheckedAt": "2026-11-20",
+      "ratingSource": "타베로그 공식 식당 페이지"
     },
     {
       "id": "notion-food-038",
@@ -1088,7 +1166,7 @@
       "description": "유후인역 가까운 밀히 계열 카페, 본점과 별개",
       "priceRangeYen": "¥1,000~1,999",
       "priceIsEstimate": true,
-      "tabelogRating": null,
+      "tabelogRating": 3.41,
       "menuImages": [
         {
           "url": "https://tblg.k-img.com/restaurant/images/Rvw/220567/f8b5a9f7914282f1069367ddf2048e37.jpg",
@@ -1097,7 +1175,9 @@
       ],
       "imageSourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/220567/f8b5a9f7914282f1069367ddf2048e37.jpg",
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%94%B1%E5%B8%83%E9%99%A2%E3%83%9F%E3%83%AB%E3%83%92%20%E3%83%89%E3%83%BC%E3%83%8A%E3%83%84%26%E3%82%AB%E3%83%95%E3%82%A7%20%E7%94%B1%E5%B8%83%E9%99%A2%20%E5%A4%A7%E5%88%86",
-      "sourceUrl": null
+      "sourceUrl": "https://tabelog.com/oita/A4402/A440201/44009367/",
+      "ratingCheckedAt": "2026-11-20",
+      "ratingSource": "타베로그 공식 식당 페이지"
     },
     {
       "id": "notion-food-039",
@@ -1111,7 +1191,7 @@
       "description": "입체 라테아트로 유명한 카페",
       "priceRangeYen": "¥999 이하",
       "priceIsEstimate": true,
-      "tabelogRating": null,
+      "tabelogRating": 3.09,
       "menuImages": [
         {
           "url": "https://cdn.goope.jp/58773/240912012042ztfs_l.jpg",
@@ -1120,7 +1200,9 @@
       ],
       "imageSourceUrl": "https://cdn.goope.jp/58773/240912012042ztfs_l.jpg",
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=Cafe%20Duo%20%E7%94%B1%E5%B8%83%E9%99%A2%20%E5%A4%A7%E5%88%86",
-      "sourceUrl": null
+      "sourceUrl": "https://tabelog.com/oita/A4402/A440201/44008841/",
+      "ratingCheckedAt": "2026-11-20",
+      "ratingSource": "타베로그 공식 식당 페이지"
     },
     {
       "id": "notion-food-040",
@@ -1134,7 +1216,7 @@
       "description": "소규모 빵·카페",
       "priceRangeYen": "¥999 이하",
       "priceIsEstimate": true,
-      "tabelogRating": null,
+      "tabelogRating": 3.15,
       "menuImages": [
         {
           "url": "https://tblg.k-img.com/restaurant/images/Rvw/276524/640x640_rect_c6fa35996c1a9866796671d652a54fe2.jpg",
@@ -1143,7 +1225,9 @@
       ],
       "imageSourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/276524/640x640_rect_c6fa35996c1a9866796671d652a54fe2.jpg",
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%B0%E3%83%A9%E3%83%B3%E3%83%9E%20%E7%94%B1%E5%B8%83%E9%99%A2%20%E5%A4%A7%E5%88%86",
-      "sourceUrl": null
+      "sourceUrl": "https://tabelog.com/oita/A4402/A440201/44000792/",
+      "ratingCheckedAt": "2026-11-20",
+      "ratingSource": "타베로그 공식 식당 페이지"
     },
     {
       "id": "notion-food-041",
@@ -1157,7 +1241,7 @@
       "description": "가벼운 티타임",
       "priceRangeYen": "¥999 이하",
       "priceIsEstimate": true,
-      "tabelogRating": null,
+      "tabelogRating": 3.11,
       "menuImages": [
         {
           "url": "https://tblg.k-img.com/restaurant/images/Rvw/248600/640x640_rect_1f78c0c43c074b5c84abe3a47ef3cb83.jpg",
@@ -1166,7 +1250,9 @@
       ],
       "imageSourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/248600/640x640_rect_1f78c0c43c074b5c84abe3a47ef3cb83.jpg",
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%8C%B6%E3%83%BB%E3%83%81%E3%83%A3%20%E3%82%B4%E3%82%A8%E3%83%A2%E3%83%B3%E3%82%AB%E3%83%95%E3%82%A7%20%E7%94%B1%E5%B8%83%E9%99%A2%20%E5%A4%A7%E5%88%86",
-      "sourceUrl": null
+      "sourceUrl": "https://tabelog.com/oita/A4402/A440201/44011560/",
+      "ratingCheckedAt": "2026-11-20",
+      "ratingSource": "타베로그 공식 식당 페이지"
     },
     {
       "id": "notion-food-042",
@@ -1180,7 +1266,7 @@
       "description": "유노쓰보 대표 치즈 디저트",
       "priceRangeYen": "¥999 이하",
       "priceIsEstimate": true,
-      "tabelogRating": null,
+      "tabelogRating": 3.57,
       "menuImages": [
         {
           "url": "https://cdn-ak.f.st-hatena.com/images/fotolife/c/ckkanazawa/20240601/20240601043039.jpg",
@@ -1189,7 +1275,9 @@
       ],
       "imageSourceUrl": "https://cdn-ak.f.st-hatena.com/images/fotolife/c/ckkanazawa/20240601/20240601043039.jpg",
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%94%B1%E5%B8%83%E9%99%A2Milch%20%E6%9C%AC%E5%BA%97%20%E7%94%B1%E5%B8%83%E9%99%A2%20%E5%A4%A7%E5%88%86",
-      "sourceUrl": null
+      "sourceUrl": "https://tabelog.com/oita/A4402/A440201/44007864/",
+      "ratingCheckedAt": "2026-11-20",
+      "ratingSource": "타베로그 공식 식당 페이지"
     },
     {
       "id": "notion-food-043",
@@ -1203,7 +1291,7 @@
       "description": "과자·카페·간식 복합 매장",
       "priceRangeYen": "¥999 이하",
       "priceIsEstimate": true,
-      "tabelogRating": null,
+      "tabelogRating": 3.57,
       "menuImages": [
         {
           "url": "https://ximg.retty.me/crop/s600x600/q80/das/-/retty/img_repo/2l/01/28732759.jpg",
@@ -1212,7 +1300,9 @@
       ],
       "imageSourceUrl": "https://ximg.retty.me/crop/s600x600/q80/das/-/retty/img_repo/2l/01/28732759.jpg",
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%94%B1%E5%B8%83%E9%99%A2%20%E9%9E%A0%E6%99%BA%20%E7%94%B1%E5%B8%83%E9%99%A2%20%E5%A4%A7%E5%88%86",
-      "sourceUrl": null
+      "sourceUrl": "https://tabelog.com/oita/A4402/A440201/44004414/",
+      "ratingCheckedAt": "2026-11-20",
+      "ratingSource": "타베로그 공식 식당 페이지"
     },
     {
       "id": "notion-food-044",
@@ -1226,7 +1316,7 @@
       "description": "유후인 대표 고로케, 간식",
       "priceRangeYen": "¥999 이하",
       "priceIsEstimate": true,
-      "tabelogRating": null,
+      "tabelogRating": 3.44,
       "menuImages": [
         {
           "url": "https://svcstrg.cld.navitime.jp/travelguide/p44030013/p44030013_01.jpg",
@@ -1235,7 +1325,9 @@
       ],
       "imageSourceUrl": "https://svcstrg.cld.navitime.jp/travelguide/p44030013/p44030013_01.jpg",
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%87%91%E8%B3%9E%E3%82%B3%E3%83%AD%E3%83%83%E3%82%B1%20%E6%9C%AC%E5%BA%97%20%E7%94%B1%E5%B8%83%E9%99%A2%20%E5%A4%A7%E5%88%86",
-      "sourceUrl": null
+      "sourceUrl": "https://tabelog.com/oita/A4402/A440201/44000201/",
+      "ratingCheckedAt": "2026-11-20",
+      "ratingSource": "타베로그 공식 식당 페이지"
     },
     {
       "id": "notion-food-045",
@@ -1249,7 +1341,7 @@
       "description": "본점과 별개 지점. 중복 방문 주의",
       "priceRangeYen": "¥999 이하",
       "priceIsEstimate": true,
-      "tabelogRating": null,
+      "tabelogRating": 3.43,
       "menuImages": [
         {
           "url": "https://tblg.k-img.com/restaurant/images/Rvw/273376/fb28c3c45a54530a6fc1c9bbd62ae048.jpg",
@@ -1258,7 +1350,9 @@
       ],
       "imageSourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/273376/fb28c3c45a54530a6fc1c9bbd62ae048.jpg",
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B9%AF%E5%B8%83%E9%99%A2%E9%87%91%E8%B3%9E%E3%82%B3%E3%83%AD%E3%83%83%E3%82%B1%20%EF%BC%92%E5%8F%B7%E5%BA%97%20%E7%94%B1%E5%B8%83%E9%99%A2%20%E5%A4%A7%E5%88%86",
-      "sourceUrl": null
+      "sourceUrl": "https://tabelog.com/oita/A4402/A440201/44005537/",
+      "ratingCheckedAt": "2026-11-20",
+      "ratingSource": "타베로그 공식 식당 페이지"
     },
     {
       "id": "notion-food-046",
@@ -1272,7 +1366,7 @@
       "description": "바로 사 먹는 닭튀김",
       "priceRangeYen": "¥999 이하",
       "priceIsEstimate": true,
-      "tabelogRating": null,
+      "tabelogRating": 3.41,
       "menuImages": [
         {
           "url": "https://megapx-assets.dcard.tw/images/6d7bd80c-24fd-4a9e-8b4e-90ce394bc74c/640.jpeg",
@@ -1281,7 +1375,9 @@
       ],
       "imageSourceUrl": "https://megapx-assets.dcard.tw/images/6d7bd80c-24fd-4a9e-8b4e-90ce394bc74c/640.jpeg",
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%AD%E6%B4%A5%E3%81%8B%E3%82%89%E3%81%82%E3%81%92%E5%B0%82%E9%96%80%E5%BA%97%20%E5%90%89%E5%90%BE%20%E6%B9%AF%E5%B8%83%E9%99%A2%E5%BA%97%20%E7%94%B1%E5%B8%83%E9%99%A2%20%E5%A4%A7%E5%88%86",
-      "sourceUrl": null
+      "sourceUrl": "https://tabelog.com/oita/A4402/A440201/44011926/",
+      "ratingCheckedAt": "2026-11-20",
+      "ratingSource": "타베로그 공식 식당 페이지"
     },
     {
       "id": "notion-food-047",
@@ -1295,7 +1391,7 @@
       "description": "흑당 아게만주·전통 과자",
       "priceRangeYen": "¥999 이하",
       "priceIsEstimate": true,
-      "tabelogRating": null,
+      "tabelogRating": 3.38,
       "menuImages": [
         {
           "url": "https://ytimg.yam.com/images/article/202508/1517074213.jpg",
@@ -1304,7 +1400,9 @@
       ],
       "imageSourceUrl": "https://ytimg.yam.com/images/article/202508/1517074213.jpg",
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%BB%8A%E6%B3%89%E5%A0%82%20%E7%94%B1%E5%B8%83%E9%99%A2%20%E5%A4%A7%E5%88%86",
-      "sourceUrl": null
+      "sourceUrl": "https://tabelog.com/oita/A4402/A440201/44000424/",
+      "ratingCheckedAt": "2026-11-20",
+      "ratingSource": "타베로그 공식 식당 페이지"
     },
     {
       "id": "notion-food-048",
@@ -1318,7 +1416,7 @@
       "description": "캐릭터 베이커리",
       "priceRangeYen": "¥999 이하",
       "priceIsEstimate": true,
-      "tabelogRating": null,
+      "tabelogRating": 3.29,
       "menuImages": [
         {
           "url": "https://img.rurubu.jp/img_srw/andmore/images/0000219261/Xr9yyMmAu3HuMAiu01OQGL2GiwMCYJrd5lajzJZI.jpeg",
@@ -1327,7 +1425,9 @@
       ],
       "imageSourceUrl": "https://img.rurubu.jp/img_srw/andmore/images/0000219261/Xr9yyMmAu3HuMAiu01OQGL2GiwMCYJrd5lajzJZI.jpeg",
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%BF%E3%81%A3%E3%81%B5%E3%81%83%E3%83%BC%E6%A3%AE%E3%81%AE%E3%81%B9%E3%83%BC%E3%81%8B%E3%82%8A%E3%83%BC%20%E7%94%B1%E5%B8%83%E9%99%A2%20%E5%A4%A7%E5%88%86",
-      "sourceUrl": null
+      "sourceUrl": "https://tabelog.com/oita/A4402/A440201/44011351/",
+      "ratingCheckedAt": "2026-11-20",
+      "ratingSource": "타베로그 공식 식당 페이지"
     },
     {
       "id": "notion-food-049",
@@ -1341,7 +1441,7 @@
       "description": "유후인 명물 오야키 전문. 돼지고기·갓절임, 닭고기·우엉, 고구마 등 여러 종류",
       "priceRangeYen": "¥999 이하",
       "priceIsEstimate": true,
-      "tabelogRating": null,
+      "tabelogRating": 3.29,
       "menuImages": [
         {
           "url": "https://cdn-mapple.net/Normal/%E5%A4%A7%E5%88%86%E7%9C%8C/44010433_20210817-3.jpg",
@@ -1350,7 +1450,9 @@
       ],
       "imageSourceUrl": "https://cdn-mapple.net/Normal/%E5%A4%A7%E5%88%86%E7%9C%8C/44010433_20210817-3.jpg",
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B9%AF%E5%B8%83%E9%99%A2%E9%95%B7%E5%AF%BF%E7%95%91%20%E7%94%B1%E5%B8%83%E9%99%A2%20%E5%A4%A7%E5%88%86",
-      "sourceUrl": null
+      "sourceUrl": "https://tabelog.com/oita/A4402/A440201/44005900/",
+      "ratingCheckedAt": "2026-11-20",
+      "ratingSource": "타베로그 공식 식당 페이지"
     },
     {
       "id": "notion-food-050",
@@ -1364,7 +1466,7 @@
       "description": "카레빵·튀김 간식",
       "priceRangeYen": "¥999 이하",
       "priceIsEstimate": true,
-      "tabelogRating": null,
+      "tabelogRating": 3.24,
       "menuImages": [
         {
           "url": "https://tblg.k-img.com/restaurant/images/Rvw/333501/640x640_rect_36a082c5de34952295b61c23d7bfe0bf.jpg",
@@ -1373,7 +1475,9 @@
       ],
       "imageSourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/333501/640x640_rect_36a082c5de34952295b61c23d7bfe0bf.jpg",
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%8F%9A%E3%81%92%E6%97%A5%E5%92%8C%20%E7%94%B1%E5%B8%83%E9%99%A2%20%E5%A4%A7%E5%88%86",
-      "sourceUrl": null
+      "sourceUrl": "https://tabelog.com/oita/A4402/A440201/44013442/",
+      "ratingCheckedAt": "2026-11-20",
+      "ratingSource": "타베로그 공식 식당 페이지"
     },
     {
       "id": "notion-food-051",
@@ -1387,7 +1491,7 @@
       "description": "토리텐과 맥주 세트는 더 비쌀 수 있음",
       "priceRangeYen": "¥999 이하",
       "priceIsEstimate": true,
-      "tabelogRating": null,
+      "tabelogRating": 3.15,
       "menuImages": [
         {
           "url": "https://tblg.k-img.com/restaurant/images/Rvw/318914/640x640_rect_13085c4d37f826229921ff5022aa80cf.jpg",
@@ -1396,7 +1500,9 @@
       ],
       "imageSourceUrl": "https://tblg.k-img.com/restaurant/images/Rvw/318914/640x640_rect_13085c4d37f826229921ff5022aa80cf.jpg",
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=GABU%20GABU%20%E7%94%B1%E5%B8%83%E9%99%A2%20%E5%A4%A7%E5%88%86",
-      "sourceUrl": null
+      "sourceUrl": "https://tabelog.com/oita/A4402/A440201/44007289/",
+      "ratingCheckedAt": "2026-11-20",
+      "ratingSource": "타베로그 공식 식당 페이지"
     },
     {
       "id": "notion-food-052",
@@ -1410,7 +1516,7 @@
       "description": "담백한 도넛류",
       "priceRangeYen": "¥999 이하",
       "priceIsEstimate": true,
-      "tabelogRating": null,
+      "tabelogRating": 3.09,
       "menuImages": [
         {
           "url": "https://baseec-img-mng.akamaized.net/images/item/origin/ba994276bccc49399297abcb44476702.jpg?im=Resize%2Cwidth%3D1280%2Ctype%3Dnormal&imformat=generic&q=90",
@@ -1419,7 +1525,9 @@
       ],
       "imageSourceUrl": "https://baseec-img-mng.akamaized.net/images/item/origin/ba994276bccc49399297abcb44476702.jpg?im=Resize%2Cwidth%3D1280%2Ctype%3Dnormal&imformat=generic&q=90",
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=nico%E3%83%89%E3%83%BC%E3%83%8A%E3%83%84%20%E6%B9%AF%E5%B8%83%E9%99%A2%E6%9C%AC%E5%BA%97%20%E7%94%B1%E5%B8%83%E9%99%A2%20%E5%A4%A7%E5%88%86",
-      "sourceUrl": null
+      "sourceUrl": "https://tabelog.com/oita/A4402/A440201/44006257/",
+      "ratingCheckedAt": "2026-11-20",
+      "ratingSource": "타베로그 공식 식당 페이지"
     },
     {
       "id": "notion-food-053",
@@ -1433,7 +1541,7 @@
       "description": "디저트 테이크아웃",
       "priceRangeYen": "¥999 이하",
       "priceIsEstimate": true,
-      "tabelogRating": null,
+      "tabelogRating": 3.08,
       "menuImages": [
         {
           "url": "https://tshop.r10s.jp/kagoshimaya/cabinet/07795574/dondoyaki-1_mo1.jpg?fitin=720%3A720",
@@ -1442,7 +1550,9 @@
       ],
       "imageSourceUrl": "https://tshop.r10s.jp/kagoshimaya/cabinet/07795574/dondoyaki-1_mo1.jpg?fitin=720%3A720",
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%8F%93%E5%AD%90%E5%B7%A5%E6%88%BF%20%E4%BA%94%E8%A1%9B%E9%96%80%20%E7%94%B1%E5%B8%83%E9%99%A2%20%E5%A4%A7%E5%88%86",
-      "sourceUrl": null
+      "sourceUrl": "https://tabelog.com/oita/A4402/A440201/44000678/",
+      "ratingCheckedAt": "2026-11-20",
+      "ratingSource": "타베로그 공식 식당 페이지"
     },
     {
       "id": "notion-food-054",
@@ -1456,7 +1566,7 @@
       "description": "꿀 아이스크림·카페",
       "priceRangeYen": "¥999 이하",
       "priceIsEstimate": true,
-      "tabelogRating": null,
+      "tabelogRating": 3.07,
       "menuImages": [
         {
           "url": "https://rimage.hitosara.com/gg/image/0006083249/0006083249F31_750x500s.jpg",
@@ -1465,7 +1575,9 @@
       ],
       "imageSourceUrl": "https://rimage.hitosara.com/gg/image/0006083249/0006083249F31_750x500s.jpg",
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%AB%E3%83%95%E3%82%A7%20%E3%83%8F%E3%82%A4%E3%83%96%20%E7%94%B1%E5%B8%83%E9%99%A2%20%E5%A4%A7%E5%88%86",
-      "sourceUrl": null
+      "sourceUrl": "https://tabelog.com/oita/A4402/A440201/44009481/",
+      "ratingCheckedAt": "2026-11-20",
+      "ratingSource": "타베로그 공식 식당 페이지"
     },
     {
       "id": "notion-food-055",
@@ -1479,7 +1591,7 @@
       "description": "포장 위주 도시락집",
       "priceRangeYen": "¥999 이하",
       "priceIsEstimate": true,
-      "tabelogRating": null,
+      "tabelogRating": 3.09,
       "menuImages": [
         {
           "url": "https://tblg.k-img.com/resize/640x640c/restaurant/images/Rvw/122298/122298828.jpg?api=v2&token=8c0ca82",
@@ -1488,7 +1600,9 @@
       ],
       "imageSourceUrl": "https://tblg.k-img.com/resize/640x640c/restaurant/images/Rvw/122298/122298828.jpg?api=v2&token=8c0ca82",
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%B5%E3%81%8F%E5%B1%8B%20%E7%94%B1%E5%B8%83%E9%99%A2%20%E5%A4%A7%E5%88%86",
-      "sourceUrl": null
+      "sourceUrl": "https://tabelog.com/oita/A4402/A440201/44006992/",
+      "ratingCheckedAt": "2026-11-20",
+      "ratingSource": "타베로그 공식 식당 페이지"
     },
     {
       "id": "notion-food-056",
@@ -1502,7 +1616,7 @@
       "description": "롤케이크 단면 판매가 없을 수 있어 인원에 맞춰 구매",
       "priceRangeYen": "¥999 이하",
       "priceIsEstimate": true,
-      "tabelogRating": null,
+      "tabelogRating": 3.63,
       "menuImages": [
         {
           "url": "https://static.gltjp.com/glt/data/directory/15000/14889/20231021_135309_ab4f6246_w1920.webp",
@@ -1511,7 +1625,9 @@
       ],
       "imageSourceUrl": "https://static.gltjp.com/glt/data/directory/15000/14889/20231021_135309_ab4f6246_w1920.webp",
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%93%E3%83%BC%E3%83%BB%E3%82%B9%E3%83%94%E3%83%BC%E3%82%AF%20(B-speak)%20(%EB%B9%84%20%EC%8A%A4%ED%94%BC%ED%81%AC)%20%E7%A6%8F%E5%B2%A1",
-      "sourceUrl": null
+      "sourceUrl": "https://tabelog.com/oita/A4402/A440201/44000122/",
+      "ratingCheckedAt": "2026-11-20",
+      "ratingSource": "타베로그 공식 식당 페이지"
     },
     {
       "id": "notion-food-057",
@@ -7332,7 +7448,11 @@
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=Yufuin+Wasaku",
       "featured": true,
       "menuImages": [],
-      "priceIsEstimate": true
+      "priceIsEstimate": true,
+      "tabelogRating": 3.45,
+      "sourceUrl": "https://tabelog.com/oita/A4402/A440201/44003060/",
+      "ratingCheckedAt": "2026-11-20",
+      "ratingSource": "타베로그 공식 식당 페이지"
     },
     {
       "id": "kappo-sato",
